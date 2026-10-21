@@ -1,40 +1,31 @@
 {
  "en": {
-  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "Your application RV-2026-001005 for card FSC-HYD-701005 was refused under the current rules (version 2). The earlier rules (version 1) decided your family was eligible. This decision was based on records TS10AB7731 and ITR-AY2025-26-604418. Record TS10AB7731 was linked to Mohammed Imran because it had a score of 8150 out of 10000. This is above the threshold of 8000. This record shows a member owns a four-wheeler. Record ITR-AY2025-26-604418 was linked to Mohammed Imran because it had a score of 8000 out of 10000. This meets the threshold of 8000. This record shows a member pays income tax. You can check or contest these records if they are not yours.",
+  "source": "gemini-3-flash-preview",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  },
  "hi": {
-  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "आपके खाद्य सुरक्षा कार्ड का आवेदन अस्वीकृत कर दिया गया है। पिछले नियमों (संस्करण 1) के अनुसार आपका आवेदन योग्य था, लेकिन वर्तमान नियमों (संस्करण 2) के तहत यह अस्वीकृत हुआ है। \n\nयह निर्णय रिकॉर्ड TS10AB7731 और ITR-AY2025-26-604418 के कारण लिया गया है। रिकॉर्ड TS10AB7731 का कुल स्कोर 10000 में से 8150 था और रिकॉर्ड ITR-AY2025-26-604418 का कुल स्कोर 10000 में से 8000 था। ये स्कोर 8000 की सीमा के बराबर या उससे अधिक हैं, इसलिए इन रिकॉर्ड्स को आपके परिवार के सदस्य Mohammed Imran से जोड़ा गया है। \n\nआप इन रिकॉर्ड्स की जानकारी तथा अपने परिवार के साथ इनके जुड़ाव की जांच कर सकते हैं या इसे चुनौती दे सकते हैं।",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  },
  "te": {
-  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "మీ ఆహార భద్రత కార్డ్ దరఖాస్తు ప్రస్తుత నిబంధనలు (వెర్షన్ 2) ప్రకారం నిరాకరించబడింది. మునుపటి నిబంధనలు (వెర్షన్ 1) ప్రకారం మీ కార్డ్ అర్హత పొందింది. ఈ నిర్ణయానికి TS10AB7731 మరియు ITR-AY2025-26-604418 అనే రికార్డులు కారణమయ్యాయి. ఈ రికార్డులు Mohammed Imran తో లంకె చేయబడ్డాయి.\n\nTS10AB7731 రికార్డులో పేరు స్కోరు 10000, సంబంధం స్కోరు 9000 మరియు స్థానికత స్కోరు 0 గా ఉంది. దీని మొత్తం స్కోరు 10000 కి 8150 గా వచ్చి, పరిమితి స్కోరు 8000 కంటే ఎక్కువగా ఉంది.\n\nITR-AY2025-26-604418 రికార్డులో పేరు స్కోరు 9000, సంబంధం స్కోరు 10000 మరియు స్థానికత స్కోరు 0 గా ఉంది. దీని మొత్తం స్కోరు 10000 కి 8000 గా వచ్చి, పరిమితి స్కోరు 8000 కు సమానంగా ఉంది.\n\nఈ స్కోర్లు పరిమితిని చేరినందున ఇవి లంకె చేయబడ్డాయి. మీరు ఈ వివరాలను మరియు స్కోర్లను తనిఖీ చేయవచ్చు లేదా సవాలు చేయవచ్చు.",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  }

@@ -1,40 +1,31 @@
 {
  "en": {
-  "text": "Your household (RV-2026-001004) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- EMP-TSG-418820 (State government payroll): Daniel Prasad, S/o Joseph Prasad, Secunderabad, 2019, matched to Daniel Prasad with score 10000 (threshold 8000).",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "Under the current rules (version 2), your application for food-security card FSC-HYD-701004 was refused.\n\nThis outcome was decided by record EMP-TSG-418820 from the State government payroll for the year 2019. The record shows that Daniel Prasad is a government employee in the Police Department.\n\nThis record was linked to your family because its total matching score was 10000 out of 10000. This score passed the required threshold of 8000 out of 10000. The name score, relative score, and locality score were each 10000 out of 10000.\n\nYou can check or contest record EMP-TSG-418820, the link to member Daniel Prasad, or his employment status.",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  },
  "hi": {
-  "text": "Your household (RV-2026-001004) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- EMP-TSG-418820 (State government payroll): Daniel Prasad, S/o Joseph Prasad, Secunderabad, 2019, matched to Daniel Prasad with score 10000 (threshold 8000).",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "आपके खाद्य सुरक्षा कार्ड FSC-HYD-701004 और आवेदन RV-2026-001004 को वर्तमान नियम (वर्जन 2) के तहत मना कर दिया गया है। पिछले नियम (वर्जन 1) के तहत भी इसे मना किया गया था। यह निर्णय रिकॉर्ड EMP-TSG-418820 के आधार पर लिया गया है। इस रिकॉर्ड में Daniel Prasad का सरकारी नौकरी में होना दर्शाया गया है। यह रिकॉर्ड आपके परिवार से इसलिए जोड़ा गया क्योंकि नाम, रिश्तेदार और इलाके का कुल स्कोर 10000 में से 10000 है। यह स्कोर 10000 में से 8000 के थ्रेशोल्ड से अधिक है। आप इस रिकॉर्ड EMP-TSG-418820 की जानकारी की जांच कर सकते हैं या इसे चुनौती दे सकते हैं।",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  },
  "te": {
-  "text": "Your household (RV-2026-001004) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- EMP-TSG-418820 (State government payroll): Daniel Prasad, S/o Joseph Prasad, Secunderabad, 2019, matched to Daniel Prasad with score 10000 (threshold 8000).",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "మీ ఆహార భద్రత కార్డు FSC-HYD-701004 మరియు దరఖాస్తు RV-2026-001004 Secunderabad ప్రాంతానికి చెందినవి. 2026-10-21 న ప్రస్తుత నిబంధనలు (వెర్షన్ 2) ప్రకారం మీ దరఖాస్తు నిరాకరించబడింది. నిర్ధారక రికార్డు EMP-TSG-418820 ద్వారా ఈ నిర్ణయం తీసుకోబడింది. State government payroll లోని 2019 రికార్డు ప్రకారం Daniel Prasad అనే సభ్యుడు Police Department లో ప్రభుత్వ ఉద్యోగం చేస్తున్నారు. పేరు, బంధుత్వం మరియు ప్రాంతం అంశాలలో ప్రతిదీ 10000 కి 10000 స్కోరు సాధించింది. మొత్తం స్కోరు 10000 కి 10000 గా ఉంది, ఇది 10000 కి 8000 పరిమితి కంటే ఎక్కువ. అందువల్ల ఈ రికార్డు మీ కుటుంబంతో అనుసంధానించబడింది. మీ కుటుంబంలో ఉన్న Joseph Prasad, Mary Prasad మరియు Daniel Prasad వివరాలను, ఈ రికార్డు సమాచారాన్ని మీరు సరిచూసుకోవచ్చు లేదా అభ్యంతరం తెలపవచ్చు.",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  }
