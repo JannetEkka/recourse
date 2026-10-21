@@ -4,7 +4,7 @@ Receipts for welfare algorithms. Every automated eligibility decision is sealed 
 
 - **Live:** https://jannetekka.github.io/recourse/
 - **Contract:** [`0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce`](https://testnet.monadvision.com/address/0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce) on Monad testnet (chain 10143), source verified on [Sourcify](https://repo.sourcify.dev/10143/0x0113802632a88F7f5Ebd7603a8eea5f31e5c30CE)
-- **Demo video (2:54, captioned):** [media/demo/recourse-demo.mp4](media/demo/recourse-demo.mp4), captions in [recourse-demo.srt](media/demo/recourse-demo.srt)
+- **Demo video (2:54, captioned):** [YouTube](https://youtu.be/KDfbYbLN7Cw). The file is [media/demo/recourse-demo.mp4](media/demo/recourse-demo.mp4), captions in [recourse-demo.srt](media/demo/recourse-demo.srt)
 - Built for [Web3 for Social Good 2026](https://dorahacks.io/hackathon/web3-social-good-2026/detail), Tech Track.
 
 ## The problem

@@ -12,7 +12,7 @@ Tech Track
 ## Links
 - GitHub: https://github.com/JannetEkka/recourse
 - Project website: https://jannetekka.github.io/recourse/
-- Demo video: https://github.com/JannetEkka/recourse/blob/main/media/demo/recourse-demo.mp4 (or the YouTube link once uploaded)
+- Demo video: https://youtu.be/KDfbYbLN7Cw
 
 ## Details
 
