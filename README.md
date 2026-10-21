@@ -82,11 +82,13 @@ git clone --recursive https://github.com/JannetEkka/recourse && cd recourse
 (cd contracts && forge test)
 cd engine && pip install -r requirements.txt && python -m pytest -q tests
 anvil &                                         # a local chain
-python pipeline.py --network local --no-ai      # deploy, publish, decide, seal, appeal; exports web/data
+python pipeline.py --network local              # deploy, publish, decide, seal, appeal; exports web/data
 cd ../web && python -m http.server 8000         # then open http://localhost:8000
 ```
 
-`--network monad` reads the agency and legal-aid keys from the files named in `RECOURSE_AGENCY_KEY_FILE` and `RECOURSE_LEGAL_KEY_FILE`, and uses `GEMINI_API_KEY` for the explanations. Every step is recorded in `out/<network>/state.json`, so a re-run never repeats a transaction.
+`--network monad` reads the agency and legal-aid keys from the files named in `RECOURSE_AGENCY_KEY_FILE` and `RECOURSE_LEGAL_KEY_FILE`. Gemini is called only with `--gemini-env NAME`, which names the environment variable holding this project's own key; without it the explanations and letters use fixed wording. Every step is recorded in `out/<network>/state.json`, so a re-run never repeats a transaction.
+
+`--export-only` skips the chain and rewrites `web/data` from `out/<network>`, retrying any explanation that fell back to fixed wording. It needs no wallet keys.
 
 ## Limits
 

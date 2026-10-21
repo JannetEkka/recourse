@@ -2,6 +2,8 @@
 
     python pipeline.py --network local   # anvil on :8545 with its default keys
     python pipeline.py --network monad   # Monad testnet; keys from files given by env vars
+    python pipeline.py --network monad --export-only --gemini-env GEMINI_API_KEY_RECOURSE
+                                         # rewrite web/data only, retrying fixed-wording explanations
 
 Every step records what it did in out/<network>/state.json and is skipped on a re-run,
 so a dropped RPC call never repeats a transaction.
@@ -107,22 +109,35 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--network", choices=NETWORKS, default="local")
     ap.add_argument("--households", type=int, default=1000)
-    ap.add_argument("--no-ai", action="store_true", help="template text only, no Gemini calls")
+    ap.add_argument("--gemini-env", metavar="NAME",
+                    help="environment variable holding this project's own Gemini key; without it, no Gemini calls")
+    ap.add_argument("--export-only", action="store_true",
+                    help="skip the chain; rewrite web data from out/<network>, retrying fixed-wording explanations")
     ap.add_argument("--export", default=str(REPO / "web" / "data"))
     a = ap.parse_args()
 
+    # Only the key named on the command line is used. Other keys in the environment belong to other projects.
+    gemini = None
+    if a.gemini_env:
+        gemini = os.environ.get(a.gemini_env)
+        if not gemini:
+            sys.exit(f"{a.gemini_env} is not set in this session")
+
     net = NETWORKS[a.network]
+    out = ROOT / "out" / a.network
+    out.mkdir(parents=True, exist_ok=True)
+    state_file = out / "state.json"
+    st = json.loads(state_file.read_text()) if state_file.exists() else {}
+
+    if a.export_only:
+        export(st, net, World(seed=7, households=a.households), out, Path(a.export), gemini)
+        return
+
     if a.network == "local":
         agency_key, legal_key = net["agency"], net["legal"]
     else:
         agency_key = json.loads(Path(os.environ["RECOURSE_AGENCY_KEY_FILE"]).read_text())[0]["private_key"]
         legal_key = json.loads(Path(os.environ["RECOURSE_LEGAL_KEY_FILE"]).read_text())[0]["private_key"]
-    gemini = None if a.no_ai else os.environ.get("GEMINI_API_KEY")
-
-    out = ROOT / "out" / a.network
-    out.mkdir(parents=True, exist_ok=True)
-    state_file = out / "state.json"
-    st = json.loads(state_file.read_text()) if state_file.exists() else {}
 
     def save():
         state_file.write_text(json.dumps(st, indent=1) + "\n")
