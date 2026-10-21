@@ -5,7 +5,7 @@
   "guard": "model drafts failed; template used",
   "tries": [
    {
-    "error": "HTTPError 503"
+    "error": "HTTPError 429"
    },
    {
     "error": "HTTPError 429"
@@ -28,10 +28,10 @@
   "guard": "model drafts failed; template used",
   "tries": [
    {
-    "error": "HTTPError 503"
+    "error": "HTTPError 429"
    },
    {
-    "error": "HTTPError 503"
+    "error": "HTTPError 429"
    }
   ]
  }
