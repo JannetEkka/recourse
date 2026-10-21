@@ -1,0 +1,378 @@
+[
+ {
+  "file": "RV-2026-000614-b1.json",
+  "application": "RV-2026-000614",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000961-b1.json",
+  "application": "RV-2026-000961",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-001001-b1.json",
+  "application": "RV-2026-001001",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": "amina",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001002-b1.json",
+  "application": "RV-2026-001002",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": "prakash",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001003-b1.json",
+  "application": "RV-2026-001003",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": "lakshmi",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001004-b1.json",
+  "application": "RV-2026-001004",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": "joseph",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001005-b1.json",
+  "application": "RV-2026-001005",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": "imran",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000463-b1.json",
+  "application": "RV-2026-000463",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000666-b1.json",
+  "application": "RV-2026-000666",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000923-b1.json",
+  "application": "RV-2026-000923",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000081-b1.json",
+  "application": "RV-2026-000081",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000842-b1.json",
+  "application": "RV-2026-000842",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000429-b1.json",
+  "application": "RV-2026-000429",
+  "batchId": 1,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000718-b1.json",
+  "application": "RV-2026-000718",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000055-b1.json",
+  "application": "RV-2026-000055",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000997-b1.json",
+  "application": "RV-2026-000997",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000170-b1.json",
+  "application": "RV-2026-000170",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000121-b1.json",
+  "application": "RV-2026-000121",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000409-b1.json",
+  "application": "RV-2026-000409",
+  "batchId": 1,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000181-b2.json",
+  "application": "RV-2026-000181",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000185-b2.json",
+  "application": "RV-2026-000185",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000366-b2.json",
+  "application": "RV-2026-000366",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000440-b2.json",
+  "application": "RV-2026-000440",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000462-b2.json",
+  "application": "RV-2026-000462",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000496-b2.json",
+  "application": "RV-2026-000496",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000600-b2.json",
+  "application": "RV-2026-000600",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000631-b2.json",
+  "application": "RV-2026-000631",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000905-b2.json",
+  "application": "RV-2026-000905",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000942-b2.json",
+  "application": "RV-2026-000942",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000986-b2.json",
+  "application": "RV-2026-000986",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-001001-b2.json",
+  "application": "RV-2026-001001",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": "amina",
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-001002-b2.json",
+  "application": "RV-2026-001002",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": "prakash",
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-001003-b2.json",
+  "application": "RV-2026-001003",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": "lakshmi",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001004-b2.json",
+  "application": "RV-2026-001004",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": "joseph",
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-001005-b2.json",
+  "application": "RV-2026-001005",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": "imran",
+  "appealed": true
+ },
+ {
+  "file": "RV-2026-000587-b2.json",
+  "application": "RV-2026-000587",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000317-b2.json",
+  "application": "RV-2026-000317",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000473-b2.json",
+  "application": "RV-2026-000473",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000682-b2.json",
+  "application": "RV-2026-000682",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000149-b2.json",
+  "application": "RV-2026-000149",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000714-b2.json",
+  "application": "RV-2026-000714",
+  "batchId": 2,
+  "outcome": "DENIED",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000322-b2.json",
+  "application": "RV-2026-000322",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000016-b2.json",
+  "application": "RV-2026-000016",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000944-b2.json",
+  "application": "RV-2026-000944",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000274-b2.json",
+  "application": "RV-2026-000274",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000533-b2.json",
+  "application": "RV-2026-000533",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ },
+ {
+  "file": "RV-2026-000361-b2.json",
+  "application": "RV-2026-000361",
+  "batchId": 2,
+  "outcome": "ELIGIBLE",
+  "spotlight": null,
+  "appealed": false
+ }
+]

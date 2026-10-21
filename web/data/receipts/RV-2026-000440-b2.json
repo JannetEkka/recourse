@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000440",
+  "card": "FSC-HYD-870211",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Samuel Kumar",
+    "relation": "S/o Joseph Emmanuel",
+    "status": "living"
+   },
+   {
+    "name": "Ruth Kumar",
+    "relation": "W/o Samuel Kumar",
+    "status": "living"
+   },
+   {
+    "name": "Lydia Jacob",
+    "relation": "D/o Samuel Kumar",
+    "status": "living"
+   },
+   {
+    "name": "Grace Raj",
+    "relation": "D/o Samuel Kumar",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Ruth Kumar",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS10KY1397",
+     "name": "Ruth Kumar",
+     "relation": "W/o Samuel Kumar",
+     "locality": "Banjara Hills",
+     "year": 2025,
+     "detail": "Honda City"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 657,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x401b05e7dad2602d2bd0eb0cfb44f31cff807091fbdef3b99668eb32bb32f50e"
+ },
+ "receiptHash": "0x13ec086abfd152281b184639de2bb5ab030ebb7382b116033dda72ddbd36f414",
+ "leaf": "0x4ea8a3607164e1c3f83c6949111b5abd4e61f019cc740486bd96cea76867d9f2",
+ "proof": [
+  "0xa68638421551d89d9e2137c6d0ed502a7ef03226cb4fad909055b7703d0079f1",
+  "0xca89c42fbf4bcb653acf154f9e55204022c6eacad88664e1bbfefda86b7c7db7",
+  "0xdbfd47ec02dd411ae6720a608866afdb187e26982f13234ea3dd500510c90d75",
+  "0x5f3104e84f4ce9b070093e910483e7e460097cc5f63993061b0c546099f4adf7",
+  "0x0a20351afe05812a7df32c56faf86855d509a54f9ea2a19241c920e012081343",
+  "0x519be9bfc23509f9c7e2fcb69bf701ebd77ba1ea1cd722600666642248414c8f",
+  "0xf3f33b218534f7eff0adaeb7e5c3b2f7f947ee8db689595d1e6e20333eca3348",
+  "0x2de7e6844eec10bd14ab98be99636bcaf2acfe6ac7bbc26eb64ab8383e3caf45",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

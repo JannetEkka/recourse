@@ -1,0 +1,47 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000409",
+  "card": "FSC-HYD-679651",
+  "locality": "Tolichowki",
+  "members": [
+   {
+    "name": "Bhaskar Netha",
+    "relation": "S/o Pentaiah Gaddam",
+    "status": "living"
+   },
+   {
+    "name": "Sarojana Netha",
+    "relation": "W/o Bhaskar Netha",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 395,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x42a46ec51984b12f328b9a0f5174c618dc3d58c9d4df46ca0b35a311fba23cde"
+ },
+ "receiptHash": "0xba149fcd08bdc02570ff23da61bd93913fa0b06491b5d9a74260673c951028da",
+ "leaf": "0xf27b7044e8750b6546d1980c95873a1eceff834262ee5499218e6b4c2c547da4",
+ "proof": [
+  "0x64e479ccf34e499b6183d58869d3de05137c14642f02799836e8b2d030171c93",
+  "0xe87dc0bcc5590bca0c9049fc6329634f09fa988959a7a81f5ee39f3fdb69b25c",
+  "0x92eea0cb746cbe21ba546018f8ea147959c50a4224f9a093d50016c5a25f55f4",
+  "0xe65c26fb392709e87c7309e4226c184347b34d847adad6b663af5aaa354c4cef",
+  "0x852cb378efe4134c34d3d36ffe05e01452063266f298992b50d8ba4e665cce70",
+  "0xf05cfd31f3125701c6bf52eeec9b0c205c4a2e7fa695da4cf62fb4dcf0da9fe4",
+  "0xee29a760d0901ec05ccacd70656956a9075434b1e0358f15c26050be103ae4bf",
+  "0x998a793b65225003555ccf4b41a1b63ac559c4a6b47180a48890b30c4ad37237",
+  "0xd9ed8fa9dc1ee2a6a311d1413c59d2c4220d2cc7978b5e47bfa6156ffe516dcf",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

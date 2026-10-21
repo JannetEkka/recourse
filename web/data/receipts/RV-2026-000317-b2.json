@@ -1,0 +1,91 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000317",
+  "card": "FSC-HYD-520223",
+  "locality": "Uppal",
+  "members": [
+   {
+    "name": "Shaik Akbar Ansari",
+    "relation": "S/o Rafiq Pasha",
+    "status": "living"
+   },
+   {
+    "name": "Gulshan Khatoon",
+    "relation": "W/o Shaik Akbar Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Md Owais Qureshi",
+    "relation": "S/o Shaik Akbar Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Mohd Habeeb Quadri",
+    "relation": "S/o Shaik Akbar Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Kareem Ansari",
+    "relation": "S/o Shaik Akbar Ansari",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Md Owais Qureshi",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS09CM5938",
+     "name": "Mohd Owais Qureshi",
+     "relation": "S/o Shaik Akbar Hashmi",
+     "locality": "Uppal",
+     "year": 2015,
+     "detail": "Toyota Innova"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 6667,
+     "locality": 10000,
+     "total": 8833
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 841,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "DENIED"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xdc1a19f409a1e6038950820ec12b6538655a0a9fc85682f99a04ebdae8d7da92"
+ },
+ "receiptHash": "0xaae30b6870035b3e0919c8db91b9a6f4a027bd5813525a54371ebfe0e4665e9c",
+ "leaf": "0x96fd7fa5d7adca119feec6a3bf4452d8cbe1f5c7f545d6ba40d912cd48d058c6",
+ "proof": [
+  "0xb91360e4277dbbc5c6c505ad1294a50048f30088953fd09ae8a6d703225cf82a",
+  "0x13807626f95c46c9cde98c37fc8b7a8a3974fb818bc3b564be3ea7b20841f5a3",
+  "0xdea7b41927b0cbd075f9d2efe66f4431af2810db6d2909534bbfff08e0e8f7b6",
+  "0xa720a1933cf9f0d1fd218d91e3a43ce770dd6d1daa561b4cbccf793c12dd6125",
+  "0x06c95c55b55abecbbeafbf8fbee033eb32c2119c4eb5800d3a764cff7835a372",
+  "0xefebc9dc3bc07acfdbbe3464ff03e6457a5f502a2c9dee6cdf894446aad6e42a",
+  "0x907568eed3cff0339a6d4e100b707eec81a43e0b73c0e40b0a01d09623cbb484",
+  "0x6bbaf366475db793be4275ecac513989bf243eca246b871cbd3e57ae9be9f9fa",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

@@ -1,0 +1,95 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-001005",
+  "card": "FSC-HYD-701005",
+  "locality": "Yakutpura",
+  "members": [
+   {
+    "name": "Mohammed Imran",
+    "relation": "S/o Mohammed Yousuf",
+    "status": "living"
+   },
+   {
+    "name": "Nasreen Begum",
+    "relation": "W/o Mohammed Imran",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Mohammed Imran",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS10AB7731",
+     "name": "Md Imran",
+     "relation": "S/o Md Yousuf Khan",
+     "locality": "Tolichowki",
+     "year": 2021,
+     "detail": "Hyundai i20"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 9000,
+     "locality": 0,
+     "total": 8150
+    },
+    "thresholdBp": 8000
+   },
+   {
+    "rule": "income_tax",
+    "ruleText": "A member pays income tax",
+    "member": "Mohammed Imran",
+    "record": {
+     "registry": "Income-tax returns",
+     "id": "ITR-AY2025-26-604418",
+     "name": "Mohd Imran Siddiqui",
+     "relation": "S/o Mohammed Yusuf",
+     "locality": "Malakpet",
+     "year": 2026,
+     "detail": "assessed income Rs 9,50,000"
+    },
+    "scoreBp": {
+     "name": 9000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0,
+    1
+   ]
+  ],
+  "recordsChecked": 75,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x3985c216bcc3d2b56896e20e019f606518e022c5c6ad3a5bdb0b14a82860e24c"
+ },
+ "receiptHash": "0xd836ca791b67f99265c5413a381b25026e1d11565896ccd80b9620c124a20aee",
+ "leaf": "0x0366607d1ff6168ca551c471dda068535daa9bd108802d5e16dd7f5cb1271da1",
+ "proof": [
+  "0xbee6972d2a3fa331d7f5db8452f03d47abf41d00f75d41f77e65da0006d36050",
+  "0xf7fc63ee39a32a7b05a6a069a14c0bc5a3b125587f7f7630001e02a86c3b20bd",
+  "0x55dd791cae5b4fe9d97ac50b51eb4cf793b6eca1dbd57c1faaba023d1eb92be4",
+  "0x227417194eb146776b118ca7becb2fdf11f41fab739a101555dafc23e63ab894",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

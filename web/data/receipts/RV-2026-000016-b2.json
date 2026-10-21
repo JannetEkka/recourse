@@ -1,0 +1,55 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000016",
+  "card": "FSC-HYD-596493",
+  "locality": "Uppal",
+  "members": [
+   {
+    "name": "Raju Erukala",
+    "relation": "S/o Nagaraju Vadde",
+    "status": "living"
+   },
+   {
+    "name": "Laxmamma Erukala",
+    "relation": "W/o Raju Erukala",
+    "status": "living"
+   },
+   {
+    "name": "Anitha Naidu",
+    "relation": "D/o Raju Erukala",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 606,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x8220255bf22b8eeb479a146934770c6fb816d2fa5e83edce889bf7947a87aa95"
+ },
+ "receiptHash": "0x156256b567126d7d93956b4d38edc2a14be5b291158a8d272b62ad3a4c213b44",
+ "leaf": "0x316600d77a32e2c3daf141281ca1a0d14155374491fa5d2050d5cac5ca957d86",
+ "proof": [
+  "0x65103d15fd34b0252b60a808a7d7384c513babed3f171f8fa0afafb7757c7261",
+  "0x81505f599077fe9b8769b6dcdbdcef42691e11a5fad74f66e96b0d6ca19b052b",
+  "0x88e7ba387156ba24481d6eac7adc23e1486a1b902fd16137e4af9e48887c729e",
+  "0x6ba7bd536a8e75059758516f7154f0e5c2aec796754940988620555e22e6017e",
+  "0x270135a2b30d27471f49b6563db661f9e5874cfd29fa31ef7821737188c3bc3c",
+  "0x5bb49fb7bf7efc88f779f69b51a4a7bf5d206768265fa8d7c915cbba32bee82b",
+  "0xb2056a04c599f9ae1ca35a3db84cf4a6605e187467b8ddc59f1ae69450d8cd38",
+  "0x42072d4ea83e180526d288cc1b120c430e96f12a649ebe10697c5db525954d69",
+  "0xbd6f28fbd0959d5349ee361a5e074f7f94c56bac9cc8ab1b79d68c17f82b3346",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

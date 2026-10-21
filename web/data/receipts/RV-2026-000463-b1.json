@@ -1,0 +1,73 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000463",
+  "card": "FSC-HYD-222730",
+  "locality": "Tolichowki",
+  "members": [
+   {
+    "name": "Lingaiah Kommu",
+    "relation": "S/o Damodar Chary",
+    "status": "living"
+   },
+   {
+    "name": "Padma Kommu",
+    "relation": "W/o Lingaiah Kommu",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Padma Kommu",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS13VR8553",
+     "name": "Padma Kommu",
+     "relation": "W/o Lingaiah Kommu",
+     "locality": "Tolichowki",
+     "year": 2024,
+     "detail": "Kia Seltos"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 380,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x78c2655c49fdf9182fbb0cca291402a59237eb7ad6e5406d6c3562efd13b813a"
+ },
+ "receiptHash": "0x315ab58ed8aff1ef4a7e563a595ede2e40c68c4ce8959187179cd52c5d314980",
+ "leaf": "0x9d2990edc07489a8d0e6fb458935728e39d401b694600ab6f1678dce1079bb29",
+ "proof": [
+  "0x5ed95947d3effd44e3d5c534b25beb557a14ef170f9f8bb03305470910e8cfef",
+  "0xe261e3622854514611a60f4ad6dfcc5df9b96a3bdfb88d2f7fe8975f1d3b4e69",
+  "0xb89c088b2309bce548e27f2a4298402233d004729bbd5996d6cd3dfef05a4d69",
+  "0x826d9d8671e4cfa0b2e278f349b55886c17db663d7590da3501f70e782b4e2a9",
+  "0x7aca969ee1c1cea3fd004ea1bb7ecbb81779d777de2562dc9cb5d91826f02de1",
+  "0xcf8c4152385ba5b8a371541129388a8fc045da4009f42d3b38f10d5f22273a93",
+  "0x807e59d520b8e90702f1825ff129d71d220e7d66dd1cabdffd1769075f29a8c3",
+  "0x998a793b65225003555ccf4b41a1b63ac559c4a6b47180a48890b30c4ad37237",
+  "0xd9ed8fa9dc1ee2a6a311d1413c59d2c4220d2cc7978b5e47bfa6156ffe516dcf",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

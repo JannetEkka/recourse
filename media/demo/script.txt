@@ -1,0 +1,17 @@
+In Telangana, an algorithm decides who gets subsidised food. It matches people across government databases, and when it finds a match, the family is cut off. In 2024, Al Jazeera reported that it tagged Bismillah Bee's late husband, a rickshaw puller, as a car owner. Her family lost its rations, and nobody could tell her which record did it. Recourse gives every family a receipt.
+
+This is Amina's receipt. Amina is invented, and modelled on that case. It says she was refused under version two of the rules, and that version one would have found her eligible.
+
+One record decided it. A Toyota Innova, registered in 2022 in Banjara Hills, to Syed Ali Khan. Amina's husband, Syed Ali, died in 2019, and the family lives in Falaknuma. The match scored eight thousand, exactly at the threshold. The receipt lists a record only if removing it changes the outcome. So if this car isn't theirs, she is eligible.
+
+Gemini explains the receipt in Telugu, Hindi or English. A guard checks every number and record ID in the text against the receipt, and throws out any draft that invents one.
+
+Is the receipt real? The browser hashes it, folds its Merkle proof into the batch root sealed on Monad testnet, and asks the contract. It also checks that the rules file matches the hash the agency published, before this batch was sealed.
+
+Change one fact, say the outcome, and every check fails. The agency can't rewrite a decision afterwards either.
+
+A legal-aid worker filed Amina's appeal on chain, with a letter Gemini drafted from the receipt and from what she told them. The agency's answer is sealed too. Decision reversed.
+
+Anyone can open the public record, read live from the contract. When the agency switched to version two, refusals went from seven and a half percent to almost twenty one, and most appealed refusals were reversed. Because this data is synthetic, we know version two wrongly cut off a hundred and twenty seven families. A real auditor sees the same story in the appeal numbers.
+
+Two appeals are still open. The agency committed to answer within thirty days, and if it doesn't, they show as overdue. The rules are public before they're used, and every family can see what decided its case. That's Recourse.

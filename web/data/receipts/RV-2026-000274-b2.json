@@ -1,0 +1,50 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000274",
+  "card": "FSC-HYD-251863",
+  "locality": "Uppal",
+  "members": [
+   {
+    "name": "Younus Khan",
+    "relation": "S/o Md Rahman Baig",
+    "status": "living"
+   },
+   {
+    "name": "Tabassum Begum",
+    "relation": "W/o Younus Khan",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 238,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x793d787a9aa3e43fa13c48c210c6470c63878ecd1d90e3e8f6843600228816b5"
+ },
+ "receiptHash": "0x127739dc256056ceb41538c10ee5889b3fff1fe803d057bdb13b4767efc6dc07",
+ "leaf": "0x1d1edfeb238bc72479ed7f6bd2cb341d15d10b6e26461f69d6d55e9a85129a88",
+ "proof": [
+  "0x34a04818978a2d4c744f352718901035b331d10af81d5104fd5ff9e40d5d36c9",
+  "0x7c1d0d90da777531ed2ab6098beb8751e14f3f37d65c63a65d1e5f26c6cde711",
+  "0x69830d0849f341e568c481fd8a8f62a15ab847b1d972a4b26f4eacc4cd036550",
+  "0xa6960a8f54ff9e4caa241bca55623b134bc6d395dee4a94b08d8c760f51a6758",
+  "0x127d9fbf42146c47bafd7817d7b4f697aa80e59b75db5ff63a361b06417f4311",
+  "0x8f1d45fd07606699027cc55798a1aeaa4014bd307376f9471d55ffe0744a69fa",
+  "0x907568eed3cff0339a6d4e100b707eec81a43e0b73c0e40b0a01d09623cbb484",
+  "0x6bbaf366475db793be4275ecac513989bf243eca246b871cbd3e57ae9be9f9fa",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

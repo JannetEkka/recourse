@@ -1,0 +1,91 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000587",
+  "card": "FSC-HYD-125109",
+  "locality": "Tolichowki",
+  "members": [
+   {
+    "name": "Rahman Hashmi",
+    "relation": "S/o Kareem Baig",
+    "status": "living"
+   },
+   {
+    "name": "Nasreen",
+    "relation": "W/o Rahman Hashmi",
+    "status": "living"
+   },
+   {
+    "name": "Gulshan",
+    "relation": "D/o Rahman Hashmi",
+    "status": "living"
+   },
+   {
+    "name": "Md Arif",
+    "relation": "S/o Rahman Hashmi",
+    "status": "living"
+   },
+   {
+    "name": "Shaik Sameer Khan",
+    "relation": "S/o Rahman Hashmi",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Nasreen",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS12EY9162",
+     "name": "Nasreen",
+     "relation": "W/o Rahman Hashmi",
+     "locality": "Bahadurpura",
+     "year": 2013,
+     "detail": "Honda City"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 530,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xef1b8bc6794ad4acc5231b913f1579e2cfd7610e0ed3c21b79a15c042a904653"
+ },
+ "receiptHash": "0xfd1e6740a257d9b62f505a2cef6938e0b5f4d0a81ea1727b4cb136ca4c08d32a",
+ "leaf": "0x3ec7a6ef51efc036c9011fcf7f45cd4a21e4452a8da46dba11b67c0c2ec8b6bf",
+ "proof": [
+  "0x058b6855092f0a1758befec5764a35a7fbb5c58e73374500bfb6fa2fe8ba6add",
+  "0xd718937bd0507d46a88c22e6faf7e0c73a25d0765c5ccfe6878d1698cb7dacc8",
+  "0xfcd935d56216191cbb8ade00fae69399d8bf621e163903a130e050f6cd825959",
+  "0x57ba7bd64d5c2bb7c20e5eba7974795c114f54ea2586d25ac0e7a82d11c464e7",
+  "0xc36ed7d9222464ca4602a039308a272635b0d4db3cd0d40d887d32719c2a577c",
+  "0xbb674492c4ad62471484ed9b81cb77f26aecd258993f6f1302488c3b64af823a",
+  "0xce9e750c25d4cb176710a5366785f706e9915353e11ecc44b141e00b21fea10c",
+  "0x5209296ffb04bf571e2084ecea35d6c8e8f0c77dcf65289a1fc4893b39afdec5",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

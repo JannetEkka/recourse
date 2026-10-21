@@ -1,0 +1,65 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000361",
+  "card": "FSC-HYD-845553",
+  "locality": "Falaknuma",
+  "members": [
+   {
+    "name": "Mohammed Ismail Ansari",
+    "relation": "S/o Shaik Naseer",
+    "status": "living"
+   },
+   {
+    "name": "Parveen Bee",
+    "relation": "W/o Mohammed Ismail Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Naseema Begum",
+    "relation": "D/o Mohammed Ismail Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Md Khaja Quadri",
+    "relation": "S/o Mohammed Ismail Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Zareena Begum",
+    "relation": "D/o Mohammed Ismail Ansari",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 476,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x81f6222bc6d09202809a018ea86b5587104122d3f123cafabc9413a4c8c1fa6f"
+ },
+ "receiptHash": "0xcdc1dd8559d647d007f232d90aae51b68296ef2a746e1768f5f025ef60b554fe",
+ "leaf": "0x6bb9da3c15425a24f8767d5500dbb9eaae39b8f6120faffb087e9ecdf14440df",
+ "proof": [
+  "0x9545765a0a7626717476c6dbeca234cf19a450ad0168ce46c340e26f9fe798c8",
+  "0xcd7803c36aff2de934e2e52d0ac20c90367a4d840816db455b08091147b8a334",
+  "0xed7ed35ae4b5bb2a9b403e04e56af418753174fbcf7293ee0e866b9fe8cc635c",
+  "0xf6c9ff740a20328649c7280383d261268e03b9547e6a5ef0e4f7f1d787334c38",
+  "0x05192bfb4d6b00ae7c5c25e710cb9967c50c2d6dd6c8915807aef2dadaee5181",
+  "0x179e1b7367151db4698af03d33f7da2161a268cfff20313286529da24dccfacc",
+  "0x373de3745a8936ba47aca96262d617518ec8b06887e3208b3631ab9eb546f099",
+  "0x6bbaf366475db793be4275ecac513989bf243eca246b871cbd3e57ae9be9f9fa",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

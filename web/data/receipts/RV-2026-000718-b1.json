@@ -1,0 +1,62 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000718",
+  "card": "FSC-HYD-438024",
+  "locality": "LB Nagar",
+  "members": [
+   {
+    "name": "Chandraiah Kumar",
+    "relation": "S/o Narsimha Vadde",
+    "status": "living"
+   },
+   {
+    "name": "Jyothi Kumar",
+    "relation": "W/o Chandraiah Kumar",
+    "status": "living"
+   },
+   {
+    "name": "Shobha Bolla",
+    "relation": "D/o Chandraiah Kumar",
+    "status": "living"
+   },
+   {
+    "name": "Radha Reddy",
+    "relation": "D/o Chandraiah Kumar",
+    "status": "living"
+   },
+   {
+    "name": "Sailu Goud",
+    "relation": "S/o Chandraiah Kumar",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 1119,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x63bc3c212c4f884518e112efa505fdd6495b2a0959f9e64377a701b96b627b35"
+ },
+ "receiptHash": "0xbdc95ffee5a9c8e38e64ddaebc6044b080059067df97c906ffa414a6e1c6d468",
+ "leaf": "0x98060cc0c5b90038e9cfb34c810bafe3551053dbcd4f588a3b466e25eee13ea1",
+ "proof": [
+  "0x9f3dbe7c6122c0514ac53cd20e56b89ea9985ee2d0d833f5bd4aabffac9a3a51",
+  "0xae0d667230adfeab3587b0a3b6568725822f25223dc11329e5859287bc263358",
+  "0x2bba00ba5fa3f9fa0ae029e88ac8146b5bcf864df6aac6c260fb5fe774bfc960",
+  "0xe7fb3e303f5a492feb893cb0163751ee2115cf4804b53d143de75754abf44f11",
+  "0x810c1f1fc2561472b97bf745a8b3bc7c191d63aaea6017945bf7d9e02e957d3a",
+  "0x7a0f80df7877fbde6331839498c5c78e103de9862b4ea888e1ddc77220f85548",
+  "0xbfbf4a315052f5fa2d6b1ce3d861da60667bc7487639279b39e6da728c608ef3",
+  "0x1aa4c20bb9d5236cd8b2fa63b3a77bac1e9d9897757898c98c05622dedcb396a",
+  "0x177c03e0c4c5c5db6adf07ed360c68497f975d060af87e1910d720ea33c761f7",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

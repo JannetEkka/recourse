@@ -116,21 +116,28 @@ def _gemini(prompt: str, key: str) -> tuple[str, str]:
     last = None
     for model in MODELS:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        for attempt in range(3):
-            # The key goes in a header, never the URL, so it can't leak into an error message.
-            r = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=120)
+        r = None
+        for attempt in range(2):
+            try:
+                # The key goes in a header, never the URL, so it can't leak into an error message.
+                r = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=90)
+            except requests.Timeout:
+                r = None
+                continue
             last = r
-            if r.status_code in (429, 500, 503) and attempt < 2:
-                time.sleep(2 ** attempt * 3)
+            if r.status_code in (429, 500, 503) and attempt < 1:
+                time.sleep(5)
                 continue
             break
-        if r.status_code in (404, 429, 500, 503):
+        if r is None or r.status_code in (404, 429, 500, 503):
             continue  # next model
         r.raise_for_status()
         parts = r.json()["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts if not p.get("thought")).strip(), model
-    last.raise_for_status()
-    raise requests.HTTPError(f"no model answered ({last.status_code})", response=last)
+    if last is not None:
+        last.raise_for_status()
+    raise requests.HTTPError(f"no model answered ({last.status_code if last is not None else 'timeout'})",
+                             response=last)
 
 
 _RULES_FOR_MODEL = """Rules for what you write:

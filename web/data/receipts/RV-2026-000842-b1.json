@@ -1,0 +1,79 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000842",
+  "card": "FSC-HYD-483135",
+  "locality": "Falaknuma",
+  "members": [
+   {
+    "name": "Ravi Pittala",
+    "relation": "S/o Anjaiah Madiga",
+    "status": "deceased",
+    "died": 2023
+   },
+   {
+    "name": "Anitha Pittala",
+    "relation": "W/o Ravi Pittala",
+    "status": "living"
+   },
+   {
+    "name": "Bhagya Sangem",
+    "relation": "D/o Ravi Pittala",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Bhagya Sangem",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-769586",
+     "name": "Bhagya Sangem",
+     "relation": "D/o Ravi Pittala",
+     "locality": "Falaknuma",
+     "year": 2016,
+     "detail": "Police Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 556,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0xdbbc3f6bb06b149f0f432cab2a91cd36d9625cf5d58f246eeccaa50436e90c7c"
+ },
+ "receiptHash": "0xfe0e8dcf24ac99fc17e5a1ab81661aeb91f6f9e74e3187cef520bf246f88c714",
+ "leaf": "0x4a6318bc1507edd96e52ee795b2311f83a9f2fc8c91bb2d2e7e412145eeac74e",
+ "proof": [
+  "0x012ead1a7ce8508b6806d1642abff9508600624f25f72fd8b0c2856e849a7932",
+  "0xf753bfb42fa861a4b1bbb3528484d26f4b9fe304ba8ab39be210a82a8f8a429a",
+  "0x64db95d7ba422e3f332b7c87099352105b2b3c655a0e0ae764a4c4c0c0e01131",
+  "0x97a80ddc919c3ff86dc8acb7aefffc133065964484c189fe001019a041446f27",
+  "0x4eec9a38c781cadf326006bcf0d7286890f72701bc1ad4bf7e07964dcc9ec831",
+  "0xf4902774f1cb8b96baa3082fd5fad51828ed352c085b4a683a2900e562a2112c",
+  "0xad997fce0d8625b54a9ff7b39d1cea4c6b17302415afb6e47eea76eebda03376",
+  "0xdc523b02a1e6dbc6dc9ac67a556edd619220bceace4c7f7a3d47b8bedef42e42",
+  "0x47436b00a53f15155f2fe0da5927ab5e30aa5eae5f8e5608b816394700414412",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

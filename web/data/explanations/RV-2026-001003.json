@@ -1,0 +1,41 @@
+{
+ "en": {
+  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ },
+ "hi": {
+  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ },
+ "te": {
+  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ }
+}

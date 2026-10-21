@@ -1,0 +1,65 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000944",
+  "card": "FSC-HYD-614975",
+  "locality": "Yakutpura",
+  "members": [
+   {
+    "name": "Upender Mudiraj",
+    "relation": "S/o Upender Goud",
+    "status": "living"
+   },
+   {
+    "name": "Saritha Mudiraj",
+    "relation": "W/o Upender Mudiraj",
+    "status": "living"
+   },
+   {
+    "name": "Durga Naidu",
+    "relation": "D/o Upender Mudiraj",
+    "status": "living"
+   },
+   {
+    "name": "Uma Madiga",
+    "relation": "D/o Upender Mudiraj",
+    "status": "living"
+   },
+   {
+    "name": "Balraj Bolla",
+    "relation": "S/o Upender Mudiraj",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 947,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x0aa8901aea8b900c238a331c8ff67221cc85e53fb5c6e363cae83070475b044f"
+ },
+ "receiptHash": "0x417fa3e7400690dc4ee9258e6766389b2199116bb787391a4aae6ccf57e3f50f",
+ "leaf": "0x82801b628b7e696c112afca7b3907078fd2536e692f49e111236d5155a89b8d9",
+ "proof": [
+  "0xea47a6fa0200f87d2d78960bcd6a8548dbeebfa062708648ea45d004b00d10c3",
+  "0x4f148af4461031f95f7b157d8445311f50544c34681943c9d2ead7c68b6ef1ea",
+  "0x20bc4de7710b2e08cc46010ac104e5ffcc0ae95896290a69db2e253960870e7a",
+  "0xafb44a233b626370ab6891dbc3e94fc644f8898ce8c799c2205257c780086f02",
+  "0x19c517731be67125705255ba81d53cc0eb8a26e2706d965f0a6b22723e829ac5",
+  "0xba5ebba73e836cacc432779cc0cb58c8a38a3001f088ef2cfc293532ff5e0b12",
+  "0x1f8a440d9c5f8b37711c7744c15078ccf0fecae76f84b2ca1d5004ff83478f44",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

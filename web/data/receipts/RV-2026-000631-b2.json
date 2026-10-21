@@ -1,0 +1,91 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000631",
+  "card": "FSC-HYD-993877",
+  "locality": "Falaknuma",
+  "members": [
+   {
+    "name": "Srinivas Pittala",
+    "relation": "S/o Chandraiah Bandari",
+    "status": "living"
+   },
+   {
+    "name": "Radha Pittala",
+    "relation": "W/o Srinivas Pittala",
+    "status": "living"
+   },
+   {
+    "name": "Hanumanthu Yadav",
+    "relation": "S/o Srinivas Pittala",
+    "status": "living"
+   },
+   {
+    "name": "Komuraiah Vadde",
+    "relation": "S/o Srinivas Pittala",
+    "status": "living"
+   },
+   {
+    "name": "Kalpana Kommu",
+    "relation": "D/o Srinivas Pittala",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "income_tax",
+    "ruleText": "A member pays income tax",
+    "member": "Radha Pittala",
+    "record": {
+     "registry": "Income-tax returns",
+     "id": "ITR-AY2024-25-589201",
+     "name": "Radha Pittala",
+     "relation": "W/o Ramesh Pittala",
+     "locality": "Falaknuma",
+     "year": 2025,
+     "detail": "assessed income Rs 1,200,000"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 5000,
+     "locality": 10000,
+     "total": 8250
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 1005,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x289261ac3cdf234a35684451e584bd459e32e4aeccb013a785afd4690aa13dcc"
+ },
+ "receiptHash": "0x829ac5dd987167311c4b35b755c541b766d5a8b451d40cab6dd101bc94238ae9",
+ "leaf": "0x10ce73ef93ec1af5b328cc3d75fc4e3ae2085b5a025ef029b8d2ab6c2ae1142b",
+ "proof": [
+  "0xc6cfa922256d62940f5a8faf75962409a727dc6bb790806bd64da80aeddfe984",
+  "0xe2162e14d90f664c5db65205ce3ed48a947cf48723cb6e52eec61a653f057484",
+  "0x130845199abeaeeed7863069c6683d10332d63b0e49adcc771686efae1b2c313",
+  "0x5f07bc393f35a08eee0ae0465809f44c8b32b75aa9c384b7d530cf0ba80c522a",
+  "0x552dd12a862eea7e4699932673306d6b847540dcc2634628d90cd2dd7875cf30",
+  "0x6200f962a1373f687d627a1e1a224794253a37655f9fe0656e542ab60d637cf5",
+  "0xce9e750c25d4cb176710a5366785f706e9915353e11ecc44b141e00b21fea10c",
+  "0x5209296ffb04bf571e2084ecea35d6c8e8f0c77dcf65289a1fc4893b39afdec5",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

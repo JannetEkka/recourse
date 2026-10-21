@@ -1,0 +1,76 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000600",
+  "card": "FSC-HYD-246792",
+  "locality": "Bahadurpura",
+  "members": [
+   {
+    "name": "Shankar Yadav",
+    "relation": "S/o Rajender Rao",
+    "status": "living"
+   },
+   {
+    "name": "Yadamma Yadav",
+    "relation": "W/o Shankar Yadav",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Yadamma Yadav",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-613005",
+     "name": "Yadamma Yadav",
+     "relation": "W/o Thirupathi Yadav",
+     "locality": "Bahadurpura",
+     "year": 2010,
+     "detail": "Municipal Administration Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 5000,
+     "locality": 10000,
+     "total": 8250
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 441,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xbaa79ee6ce940e479ca4ff3ae13fef8da7458b0a9c26cf6e872c25d7e2c74002"
+ },
+ "receiptHash": "0xebc67c245cffc2e97b2cfb0a427fb6002ef99c9142ff2da34045138f7e345493",
+ "leaf": "0x90c38a51dcbefe4c4bb186e02a377d17c1863e827dbb8027b8ab439259432e54",
+ "proof": [
+  "0x52f986194e6921309c9018b36880edf628d4cfc847da21f49db1a70fd78c50f5",
+  "0xe3caab616df7a36394c8b3142c92ee5adb3ff2fa4314f4324ef6d741e108d899",
+  "0x8d9da840fac0b08e86db39fb10822dd1f3cdc596169967d6c4ea538b1011a1c9",
+  "0xa52838b235f3c6b2a126e80196c5d1bf4260e5246d154cce3717e30738b75e7b",
+  "0xa0077484c7d04b766b0be313cc099a529f2b636254d8d90aecdbfd056a4d92a8",
+  "0xbb674492c4ad62471484ed9b81cb77f26aecd258993f6f1302488c3b64af823a",
+  "0xce9e750c25d4cb176710a5366785f706e9915353e11ecc44b141e00b21fea10c",
+  "0x5209296ffb04bf571e2084ecea35d6c8e8f0c77dcf65289a1fc4893b39afdec5",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

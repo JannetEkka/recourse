@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000462",
+  "card": "FSC-HYD-453283",
+  "locality": "Amberpet",
+  "members": [
+   {
+    "name": "Jagadish Gaddam",
+    "relation": "S/o Upender Netha",
+    "status": "living"
+   },
+   {
+    "name": "Swapna Gaddam",
+    "relation": "W/o Jagadish Gaddam",
+    "status": "living"
+   },
+   {
+    "name": "Anjaiah Bolla",
+    "relation": "S/o Jagadish Gaddam",
+    "status": "living"
+   },
+   {
+    "name": "Shobha Reddy",
+    "relation": "D/o Jagadish Gaddam",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "income_tax",
+    "ruleText": "A member pays income tax",
+    "member": "Swapna Gaddam",
+    "record": {
+     "registry": "Income-tax returns",
+     "id": "ITR-AY2024-25-182436",
+     "name": "Swapna Gaddam",
+     "relation": "W/o Balraj Gaddam",
+     "locality": "Amberpet",
+     "year": 2025,
+     "detail": "assessed income Rs 1,400,000"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 5000,
+     "locality": 10000,
+     "total": 8250
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 820,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x25f11709a4db8999cb686245523c5261f3bccd53eb9d1ed633de0a91cac908fa"
+ },
+ "receiptHash": "0x2c2a5ece50ff4d619148bf68341ed0534c5db87b7dd295bb8e7ce70d8e315265",
+ "leaf": "0xac48a45103f942c21c8ba0ef8b2beea337d6d5b41cb20ce97ce3a17b335854a0",
+ "proof": [
+  "0xd82468fdf3267ff14ed4a3662551367622b76c9a1f8b7ea86c372b2572fe520c",
+  "0x1768f58d2e3cf47c1739eebd0bb806650468d75e29d21365cb57cb4066efef85",
+  "0xc9dcd2f878e8c474cb063718939967a7be91c2fffd5585d9ea1ec524c888956c",
+  "0x33c5ccfc709072a7fd6ecbcb1856c280e041c9fe58af036152f950e4b4efbd30",
+  "0xd8c38f380973fe2e997aa1e08c01abb71799557d3d34e0760b73234a3425a085",
+  "0x8408088cb902e73efa34f231af5c78942db16e4d05cf1e32a23093af9ffcf671",
+  "0x9e93d39495658ef97bca1cd4e63b1d23d0708fdb3ef09177c814c0da3dd78061",
+  "0x2de7e6844eec10bd14ab98be99636bcaf2acfe6ac7bbc26eb64ab8383e3caf45",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

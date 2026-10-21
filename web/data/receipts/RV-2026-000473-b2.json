@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000473",
+  "card": "FSC-HYD-545913",
+  "locality": "Uppal",
+  "members": [
+   {
+    "name": "Syed Habeeb Qureshi",
+    "relation": "S/o Md Ismail Qureshi",
+    "status": "living"
+   },
+   {
+    "name": "Kauser Begum",
+    "relation": "W/o Syed Habeeb Qureshi",
+    "status": "living"
+   },
+   {
+    "name": "Ayesha Bee",
+    "relation": "D/o Syed Habeeb Qureshi",
+    "status": "living"
+   },
+   {
+    "name": "Yasmeen Bee",
+    "relation": "D/o Syed Habeeb Qureshi",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Kauser Begum",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-601484",
+     "name": "Kauser Begum",
+     "relation": "W/o Syed Habeeb Qureshi",
+     "locality": "Uppal",
+     "year": 1998,
+     "detail": "Revenue Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 261,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "DENIED"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xb1b9c4f0d1379321dc71bed82f1643d84967c779663ef571fcf106df6a9410d4"
+ },
+ "receiptHash": "0x405ab63c6bb9b3d616821792aac4d96b9678feb14dcff37b5d1353c6f0645955",
+ "leaf": "0xa634028496272157cbd4e71f9dd22cf9e100b5f2026d660acf17adb7afd908de",
+ "proof": [
+  "0x2b7436d8dfebeb2969ae80de27278e93d10c63e6c73df90085039c11fcce1bb5",
+  "0x650bbb0330b2fdd5071d9d551aa271bb506a5d1453b8be2f0ccb8f61c964ffd2",
+  "0x514fffa4266b201ff6425313afb6a1411f52961413f394b15772b0dc38ed41ee",
+  "0x4012e6fe295127a5fedd547d2887ae780796a10c888d00488135314d7e9dd712",
+  "0x433995002b5471d5ae152bb5dce50878b8684bd7e4f7664ea285861e5ef309a7",
+  "0x8408088cb902e73efa34f231af5c78942db16e4d05cf1e32a23093af9ffcf671",
+  "0x9e93d39495658ef97bca1cd4e63b1d23d0708fdb3ef09177c814c0da3dd78061",
+  "0x2de7e6844eec10bd14ab98be99636bcaf2acfe6ac7bbc26eb64ab8383e3caf45",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

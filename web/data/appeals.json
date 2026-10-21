@@ -1,0 +1,294 @@
+[
+ {
+  "id": 1,
+  "batch": 1,
+  "application": "RV-2026-000614",
+  "batchId": 1,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000614 (card FSC-HYD-974003)\n\nMy application was refused under rules v1 because of record(s) TS11KN5818.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x4d2364478e69180bbc140dad896931900d6bfe24ec03f2aa04f369620b4c42c6",
+   "block": 72904495
+  },
+  "answer": {
+   "text": "Appeal 1: the decision is reversed. Record TS11KN5818 was checked against the registry's documents and belongs to another person. Card FSC-HYD-974003 is restored.",
+   "overturned": true,
+   "tx": "0x0f19d16b506a93d6a1fed5bbc213a25883be56f22974b4a3f2d63e6bd0ba60e8",
+   "block": 72907131
+  }
+ },
+ {
+  "id": 2,
+  "batch": 1,
+  "application": "RV-2026-000961",
+  "batchId": 1,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000961 (card FSC-HYD-716277)\n\nMy application was refused under rules v1 because of record(s) TS13PC3501.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x779cde941ca68d754f1a2bc6efc7e7e8043ada607742fcfbe878fb7ad44b97d8",
+   "block": 72904504
+  },
+  "answer": {
+   "text": "Appeal 2: the decision stands. Record TS13PC3501 was checked against the registry's documents and belongs to a member of household RV-2026-000961.",
+   "overturned": false,
+   "tx": "0x38f84cc7e854cf6e462bcaac16bf97de6b901915dbf2c437bc2064d9ce510a5d",
+   "block": 72907140
+  }
+ },
+ {
+  "id": 3,
+  "batch": 2,
+  "application": "RV-2026-001001",
+  "batchId": 2,
+  "letter": "Subject: Application RV-2026-001001 and card FSC-HYD-701001\n\nTo the Assistant Supply Officer, Civil Supplies Department. We ask for the refusal to be reversed. Under the earlier rules (version 1), we were eligible. Under the current rules (version 2), our card was refused on 2026-10-21.\n\nThe decisive record is TS09EX4521. This record cannot be our family's record. The record name is Syed Ali Khan, but our family member is Syed Ali. The record relation is S/o Syed Mahmood, which matches Syed Ali's relation S/o Syed Mahmood. However, the record locality is Banjara Hills, while our locality is Falaknuma. The record year is 2022 for a Toyota Innova.\n\nMy husband Syed Ali was a rickshaw puller. He died in 2019 and never owned a car. We have always lived in Falaknuma, never in Banjara Hills. A person who died in 2019 cannot be linked to a vehicle from 2022. The locality score was 0 out of 10000, and the total score was 8000 out of 10000.\n\nPlease reverse the refusal and make our card eligible.\n\nYours faithfully",
+  "letterSource": "gemini-flash-latest",
+  "letterGuard": "passed",
+  "filed": {
+   "tx": "0xa078143c64e07bbd9e3b646014e9801c0c69f5da02ced06e256eb0a0d17f3070",
+   "block": 72905699
+  },
+  "answer": {
+   "text": "Appeal 3: the decision is reversed. Record TS09EX4521 was checked against the registry's documents and belongs to another person. Card FSC-HYD-701001 is restored.",
+   "overturned": true,
+   "tx": "0x33198c6e53695d51245bece9e8bb03dbadd3cb77e08850d1e06bfbd396a9992d",
+   "block": 72907148
+  }
+ },
+ {
+  "id": 4,
+  "batch": 2,
+  "application": "RV-2026-001002",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-001002 (card FSC-HYD-701002)\n\nMy application was refused under rules v2 because of record(s) TS07FK2290.\nThese records do not belong to my family.\nI drive an auto. I do not own a car.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "model drafts failed; template used",
+  "filed": {
+   "tx": "0xffb92748a29e8f03fae2407823a4c7a19bc39d008b7b941bcea80e50bbbee424",
+   "block": 72906472
+  },
+  "answer": {
+   "text": "Appeal 4: the decision stands. Record TS07FK2290 was checked against the registry's documents and belongs to a member of household RV-2026-001002.",
+   "overturned": false,
+   "tx": "0x015ea589b13ee3952da62c16bcc038d93cb01149ed8f42cef4cd74119d85d14e",
+   "block": 72907151
+  }
+ },
+ {
+  "id": 5,
+  "batch": 2,
+  "application": "RV-2026-001005",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-001005 (card FSC-HYD-701005)\n\nMy application was refused under rules v2 because of record(s) TS10AB7731, ITR-AY2025-26-604418.\nThese records do not belong to my family.\nI am a tailor in Yakutpura. I have never owned a car or filed an income-tax return. My father's name is Mohammed Yousuf.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "model drafts failed; template used",
+  "filed": {
+   "tx": "0xcd7aa1929632e3e434ad89127f196b6f3ee38eb864e0165ec9b9064cb8321a85",
+   "block": 72907030
+  },
+  "answer": {
+   "text": "Appeal 5: the decision is reversed. Record TS10AB7731, ITR-AY2025-26-604418 was checked against the registry's documents and belongs to another person. Card FSC-HYD-701005 is restored.",
+   "overturned": true,
+   "tx": "0x817f53fbfc26b38b4085419cee8bba96367442189294054bbad86d4db63ee8e9",
+   "block": 72907159
+  }
+ },
+ {
+  "id": 6,
+  "batch": 2,
+  "application": "RV-2026-000440",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000440 (card FSC-HYD-870211)\n\nMy application was refused under rules v2 because of record(s) TS10KY1397.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0xf3adf49970317c829a699059788ba47bec0be4a1c1da087c8b815877e4e6fb9a",
+   "block": 72907039
+  },
+  "answer": {
+   "text": "Appeal 6: the decision is reversed. Record TS10KY1397 was checked against the registry's documents and belongs to another person. Card FSC-HYD-870211 is restored.",
+   "overturned": true,
+   "tx": "0x91bfbc4c3a23dc3a8130762dcb58ade3105605f80a66079274e5064dd9ace160",
+   "block": 72907162
+  }
+ },
+ {
+  "id": 7,
+  "batch": 2,
+  "application": "RV-2026-000496",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000496 (card FSC-HYD-967438)\n\nMy application was refused under rules v2 because of record(s) TS12WF1358.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x432e783f1f2624a75397e95f113207d59447fb0c669e72e4fb183ad28bc9cec8",
+   "block": 72907044
+  },
+  "answer": {
+   "text": "Appeal 7: the decision is reversed. Record TS12WF1358 was checked against the registry's documents and belongs to another person. Card FSC-HYD-967438 is restored.",
+   "overturned": true,
+   "tx": "0xfd7a35d1719d17401de6c5938634b99e6f3dc3f391a22555ed6d926593c35272",
+   "block": 72907170
+  }
+ },
+ {
+  "id": 8,
+  "batch": 2,
+  "application": "RV-2026-000942",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000942 (card FSC-HYD-897548)\n\nMy application was refused under rules v2 because of record(s) TS12VL4885.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x57bd465369554a810bb3765abdc80b10e367cd5e7f2f3c8d1a31cc5218114656",
+   "block": 72907054
+  },
+  "answer": {
+   "text": "Appeal 8: the decision is reversed. Record TS12VL4885 was checked against the registry's documents and belongs to another person. Card FSC-HYD-897548 is restored.",
+   "overturned": true,
+   "tx": "0x66bc47cb746bcd12af1f2a27ccbb8eb3e5f91c0429d1c832bfce675368068dfe",
+   "block": 72907179
+  }
+ },
+ {
+  "id": 9,
+  "batch": 2,
+  "application": "RV-2026-000600",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000600 (card FSC-HYD-246792)\n\nMy application was refused under rules v2 because of record(s) EMP-TSG-613005.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0xd26c609d5ce71f4f0dc0f088b5b5679e11c25c5d473b0bc344fda0f137241992",
+   "block": 72907063
+  },
+  "answer": {
+   "text": "Appeal 9: the decision is reversed. Record EMP-TSG-613005 was checked against the registry's documents and belongs to another person. Card FSC-HYD-246792 is restored.",
+   "overturned": true,
+   "tx": "0xbad3322d01177cff9e820d6a239745f0a437094990d67f444be78dcbeffb9098",
+   "block": 72907187
+  }
+ },
+ {
+  "id": 10,
+  "batch": 2,
+  "application": "RV-2026-000185",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000185 (card FSC-HYD-685649)\n\nMy application was refused under rules v2 because of record(s) EMP-TSG-114349.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x047e1e204fbc2579bc440ba6a818203da193d5f7c6d36958e88f8c40da069385",
+   "block": 72907072
+  },
+  "answer": {
+   "text": "Appeal 10: the decision is reversed. Record EMP-TSG-114349 was checked against the registry's documents and belongs to another person. Card FSC-HYD-685649 is restored.",
+   "overturned": true,
+   "tx": "0x4fdeb41396c8860e64a880a1e64cdadf0886b8a76a94e1a3f12f686567ff63dc",
+   "block": 72907195
+  }
+ },
+ {
+  "id": 11,
+  "batch": 2,
+  "application": "RV-2026-000181",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000181 (card FSC-HYD-832350)\n\nMy application was refused under rules v2 because of record(s) TS11RR1428.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0xfa98c815f060be12d0d96953b1c874bd19f354eb8e7bf1be6819b54e9c6ad80e",
+   "block": 72907082
+  },
+  "answer": {
+   "text": "Appeal 11: the decision is reversed. Record TS11RR1428 was checked against the registry's documents and belongs to another person. Card FSC-HYD-832350 is restored.",
+   "overturned": true,
+   "tx": "0x8fab0b5ea5cffdc22e06fbb0b046a5adf775efb8b0bd12774a90ec25adf2cdc4",
+   "block": 72907204
+  }
+ },
+ {
+  "id": 12,
+  "batch": 2,
+  "application": "RV-2026-000905",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000905 (card FSC-HYD-882706)\n\nMy application was refused under rules v2 because of record(s) TS09BU9624.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x261b365afc4f112cbba9f2428991b4178058d4169191b4fb3e6939933811a136",
+   "block": 72907087
+  },
+  "answer": {
+   "text": "Appeal 12: the decision is reversed. Record TS09BU9624 was checked against the registry's documents and belongs to another person. Card FSC-HYD-882706 is restored.",
+   "overturned": true,
+   "tx": "0x3c73389ffc9422af91cd28e95e6404c5d4300857619d97703acbe03261f7dbc5",
+   "block": 72907213
+  }
+ },
+ {
+  "id": 13,
+  "batch": 2,
+  "application": "RV-2026-000462",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000462 (card FSC-HYD-453283)\n\nMy application was refused under rules v2 because of record(s) ITR-AY2024-25-182436.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0xd1d3d1af4794e03b6bd9e993fe0e7fd1f25781147df6d9424f0f8fc1919eeb45",
+   "block": 72907096
+  },
+  "answer": {
+   "text": "Appeal 13: the decision is reversed. Record ITR-AY2024-25-182436 was checked against the registry's documents and belongs to another person. Card FSC-HYD-453283 is restored.",
+   "overturned": true,
+   "tx": "0x9efe1c8f5a9f2072177e729ece7b671b0f6b91bc419886136038aec962b6e738",
+   "block": 72907222
+  }
+ },
+ {
+  "id": 14,
+  "batch": 2,
+  "application": "RV-2026-000631",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000631 (card FSC-HYD-993877)\n\nMy application was refused under rules v2 because of record(s) ITR-AY2024-25-589201.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0xd182486f5defbb537901b8edc72e6f75972b0a895be41c6aebc8d392591a132a",
+   "block": 72907107
+  }
+ },
+ {
+  "id": 15,
+  "batch": 2,
+  "application": "RV-2026-000986",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000986 (card FSC-HYD-298220)\n\nMy application was refused under rules v2 because of record(s) TS13NP5330.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x9fbd06c1ec3660952ae0333b413b92a2a0814c78f2affb71b86e271260293c5d",
+   "block": 72907118
+  },
+  "answer": {
+   "text": "Appeal 15: the decision stands. Record TS13NP5330 was checked against the registry's documents and belongs to a member of household RV-2026-000986.",
+   "overturned": false,
+   "tx": "0x3277164828f4acd8d33620805bba710b5dbb772853d49a336ef3feb746b86977",
+   "block": 72907231
+  }
+ },
+ {
+  "id": 16,
+  "batch": 2,
+  "application": "RV-2026-000366",
+  "batchId": 2,
+  "letter": "To the Assistant Supply Officer, Civil Supplies Department\nSubject: Appeal against refusal of application RV-2026-000366 (card FSC-HYD-524033)\n\nMy application was refused under rules v2 because of record(s) TS09FM2590.\nThese records do not belong to my family.\nPlease correct the decision and restore our card.\n\nYours faithfully",
+  "letterSource": "template",
+  "letterGuard": "n/a",
+  "filed": {
+   "tx": "0x4dbdb296b29ca5b9eaf07571798b7473e1886215b812bced82bc51f16091af9e",
+   "block": 72907127
+  }
+ }
+]

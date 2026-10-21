@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000942",
+  "card": "FSC-HYD-897548",
+  "locality": "Falaknuma",
+  "members": [
+   {
+    "name": "Md Qadeer Hashmi",
+    "relation": "S/o Mohd Riyaz Farooqui",
+    "status": "living"
+   },
+   {
+    "name": "Tabassum Khatoon",
+    "relation": "W/o Md Qadeer Hashmi",
+    "status": "living"
+   },
+   {
+    "name": "Syed Rahman",
+    "relation": "S/o Md Qadeer Hashmi",
+    "status": "living"
+   },
+   {
+    "name": "Haseena Khatoon",
+    "relation": "D/o Md Qadeer Hashmi",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Md Qadeer Hashmi",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS12VL4885",
+     "name": "Mohammed Qadeer",
+     "relation": "S/o Mohammed Moin Farooqui",
+     "locality": "Falaknuma",
+     "year": 2015,
+     "detail": "Hyundai i20"
+    },
+    "scoreBp": {
+     "name": 9000,
+     "relative": 6667,
+     "locality": 10000,
+     "total": 8333
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 310,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x0b58d731cf6248207c43ccf1c335f53ef508cfb1afb5bb30365aee13b1153602"
+ },
+ "receiptHash": "0x69e798eebeb12090d600a06f027c51cee3a556c6f514f3173392d62be8dc8243",
+ "leaf": "0xf75fd83e4f455ea0a5e7dc13de68fa20b3064bd4dea175027f1702fb24047bee",
+ "proof": [
+  "0x04173ddd60ec9c049e4578d80b8a63a37ebc2bf2576dc84c6d6d707be738d808",
+  "0x5425b003826ed58ea6d41d17d06aa0f80ee38a5fb98597a3463af0dd59db4e7a",
+  "0x20bc4de7710b2e08cc46010ac104e5ffcc0ae95896290a69db2e253960870e7a",
+  "0xafb44a233b626370ab6891dbc3e94fc644f8898ce8c799c2205257c780086f02",
+  "0x19c517731be67125705255ba81d53cc0eb8a26e2706d965f0a6b22723e829ac5",
+  "0xba5ebba73e836cacc432779cc0cb58c8a38a3001f088ef2cfc293532ff5e0b12",
+  "0x1f8a440d9c5f8b37711c7744c15078ccf0fecae76f84b2ca1d5004ff83478f44",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

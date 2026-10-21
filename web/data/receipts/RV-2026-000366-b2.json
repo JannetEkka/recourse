@@ -1,0 +1,87 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000366",
+  "card": "FSC-HYD-524033",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Mallesh Bolla",
+    "relation": "S/o Upender Kommu",
+    "status": "deceased",
+    "died": 2022
+   },
+   {
+    "name": "Narsamma Bolla",
+    "relation": "W/o Mallesh Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Anjaiah Thota",
+    "relation": "S/o Mallesh Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Kalpana Rao",
+    "relation": "D/o Mallesh Bolla",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Narsamma Bolla",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS09FM2590",
+     "name": "Narsamma Bolla",
+     "relation": "W/o Mallesh Bolla",
+     "locality": "Musheerabad",
+     "year": 2015,
+     "detail": "Hyundai i20"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 792,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "DENIED"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x440e2ac10997114476191f4d948b953765db2f6b7b50d99aa5947f6e190c9ff8"
+ },
+ "receiptHash": "0x4d3d6029e18b6a9a84bfe0e8dd00d70916084143b547d1615a7d5241b4cb6155",
+ "leaf": "0xd6d9f9137902cee9124c5e98f076b02984bbd798ec2efd6456a2f315c1c4c149",
+ "proof": [
+  "0x9741d21536ae0bf29c5a2cec1cea0f6ea2675a66938f0a152acf2c48a0b27d3d",
+  "0x9e7ec967cec6f6e133c1cdaafb2e05c2ef15537aa669053a3e3aab9aa334fbdc",
+  "0x0a8493918ca69227072f3ae03d176c9ca3bee32150465eb981849b84901be9da",
+  "0xf6c9ff740a20328649c7280383d261268e03b9547e6a5ef0e4f7f1d787334c38",
+  "0x05192bfb4d6b00ae7c5c25e710cb9967c50c2d6dd6c8915807aef2dadaee5181",
+  "0x179e1b7367151db4698af03d33f7da2161a268cfff20313286529da24dccfacc",
+  "0x373de3745a8936ba47aca96262d617518ec8b06887e3208b3631ab9eb546f099",
+  "0x6bbaf366475db793be4275ecac513989bf243eca246b871cbd3e57ae9be9f9fa",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

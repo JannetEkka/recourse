@@ -1,0 +1,15 @@
+{
+ "batch1": {
+  "decisions": 1005,
+  "denied": 75,
+  "deniedWrongly": 10,
+  "deniedRightly": 65
+ },
+ "batch2": {
+  "decisions": 1005,
+  "denied": 209,
+  "deniedWrongly": 127,
+  "deniedRightly": 82
+ },
+ "householdsReallyIneligible": 82
+}

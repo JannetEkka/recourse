@@ -1,0 +1,81 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-001001",
+  "card": "FSC-HYD-701001",
+  "locality": "Falaknuma",
+  "members": [
+   {
+    "name": "Syed Ali",
+    "relation": "S/o Syed Mahmood",
+    "status": "deceased",
+    "died": 2019
+   },
+   {
+    "name": "Amina Begum",
+    "relation": "W/o Syed Ali",
+    "status": "living"
+   },
+   {
+    "name": "Syed Imran",
+    "relation": "S/o Syed Ali",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Syed Ali",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS09EX4521",
+     "name": "Syed Ali Khan",
+     "relation": "S/o Syed Mahmood",
+     "locality": "Banjara Hills",
+     "year": 2022,
+     "detail": "Toyota Innova"
+    },
+    "scoreBp": {
+     "name": 9000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 142,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x56f4239a4575d73b15b8a37ac6de6ca0db51cb7caed9df700e2e425d2d6e0dc2"
+ },
+ "receiptHash": "0x09188642671acc64ff03b1e2fee320e898076c77e37e1b983e127f5fd3c28d8d",
+ "leaf": "0x61d9405170e477c9a3b7341996a934e72c2f2741ddf9ffb226d7894b01dc2f31",
+ "proof": [
+  "0x59fd0ab36165bbb53204313277aa921b8efd88ec0005af201ba065c15e744f6b",
+  "0x16707dc52aa268540d2c3f4c189adc74690a5b2516b92455234d468d6cd4ccc2",
+  "0x0366607d1ff6168ca551c471dda068535daa9bd108802d5e16dd7f5cb1271da1",
+  "0xf7fc63ee39a32a7b05a6a069a14c0bc5a3b125587f7f7630001e02a86c3b20bd",
+  "0x55dd791cae5b4fe9d97ac50b51eb4cf793b6eca1dbd57c1faaba023d1eb92be4",
+  "0x227417194eb146776b118ca7becb2fdf11f41fab739a101555dafc23e63ab894",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

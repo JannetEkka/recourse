@@ -1,0 +1,53 @@
+{
+ "chainId": 10143,
+ "rpc": "https://testnet-rpc.monad.xyz",
+ "explorer": "https://testnet.monadvision.com",
+ "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+ "deployTx": "0xe85ab1002f42e963d68c090feff1203ae916535929dc637d392506ee22c32dc2",
+ "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+ "agencyName": "Civil Supplies Department (demo replica, synthetic data)",
+ "legalAid": "0x05e37f82ca7394642143b80030f7bd2346ee43f4",
+ "rulesets": [
+  {
+   "id": 1,
+   "version": "v1",
+   "hash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+   "tx": "0x635894ee79664efb21a94c194900867d3843339cd2601a021ff7be192f42318e",
+   "block": 72904241
+  },
+  {
+   "id": 2,
+   "version": "v2",
+   "hash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+   "tx": "0x3548ab0b18078d9c4499ea1e20cda23a1333a5997292ab86f595072cf4a7f142",
+   "block": 72904366
+  }
+ ],
+ "batches": [
+  {
+   "id": 1,
+   "rulesetId": 1,
+   "root": "0xb61c16114eae62e5c0d91b144bfbb5bfb72fab1693d13656b5950daf4dcc2347",
+   "count": 1005,
+   "denied": 75,
+   "tx": "0xcb6aa7583125229f3f3671398cbdc431310d44f4876dd28b07baa4bfd55df680",
+   "block": 72904361
+  },
+  {
+   "id": 2,
+   "rulesetId": 2,
+   "root": "0x276a0f2f65a512a19873b295a12efddb7b2e399e48e50fc461fc534901ba3b46",
+   "count": 1005,
+   "denied": 209,
+   "tx": "0x220c90b0b74b2262b6cac1bc2efc9c91bdcb4a16c6c38f89627e1fe6bb6b9814",
+   "block": 72904489
+  }
+ ],
+ "spotlight": {
+  "amina": "RV-2026-001001",
+  "prakash": "RV-2026-001002",
+  "lakshmi": "RV-2026-001003",
+  "joseph": "RV-2026-001004",
+  "imran": "RV-2026-001005"
+ }
+}

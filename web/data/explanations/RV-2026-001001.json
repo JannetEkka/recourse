@@ -1,0 +1,35 @@
+{
+ "en": {
+  "text": "Under the current rules (version 2), your application RV-2026-001001 for card FSC-HYD-701001 is refused. Under the earlier rules (version 1), it was eligible.\n\nThe application was refused because record TS09EX4521 shows a four-wheeler Toyota Innova from year 2022. This record was decisive.\n\nRecord TS09EX4521 was linked to Syed Ali because the total score was 8000 out of 10000, which reaches the threshold 8000. The name score was 9000 out of 10000, the relative score was 10000 out of 10000, and the locality score was 0 out of 10000.\n\nYou can check or contest record TS09EX4521.",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
+  "tries": [
+   {
+    "problems": []
+   }
+  ]
+ },
+ "hi": {
+  "text": "आपके आवेदन RV-2026-001001 और कार्ड FSC-HYD-701001 पर फैसला हो गया है। वर्तमान नियम (संस्करण 2) के तहत आपका आवेदन अस्वीकार कर दिया गया है। यह फैसला रिकॉर्ड TS09EX4521 की वजह से लिया गया है। इस रिकॉर्ड के मुताबिक Syed Ali के पास चार पहिया गाड़ी है। इस रिकॉर्ड को आपके परिवार से जोड़ा गया है क्योंकि नाम का स्कोर 10000 में से 9000 है। रिश्तेदार का स्कोर 10000 में से 10000 है। इलाके का स्कोर 10000 में से 0 है। कुल स्कोर 10000 में से 8000 है। पिछले नियम (संस्करण 1) में आप पात्र थे। आप इस रिकॉर्ड की जांच कर सकते हैं या इसे चुनौती दे सकते हैं।",
+  "source": "gemini-3-flash-preview",
+  "guard": "passed",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "problems": []
+   }
+  ]
+ },
+ "te": {
+  "text": "మీ ఆహార భద్రత కార్డు FSC-HYD-701001 దరఖాస్తు RV-2026-001001 ప్రస్తుత నిబంధనలు (version 2) ప్రకారం తిరస్కరించబడింది. రికార్డు TS09EX4521 ప్రకారం మీ కుటుంబ సభ్యుడు Syed Ali ఒక Toyota Innova వాహనాన్ని కలిగి ఉన్నారు. ఈ రికార్డు Transport Dept. vehicle registry నుండి తీసుకోబడింది. ఈ రికార్డులో పేరు స్కోరు 10000 కి 9000 మరియు బంధుత్వ స్కోరు 10000 కి 10000 గా ఉంది. స్థానికత స్కోరు 10000 కి 0 గా ఉంది. మొత్తం స్కోరు 10000 కి 8000 వచ్చినందున ఈ రికార్డు మీ కుటుంబానికి లింక్ చేయబడింది. ఇది 8000 పరిమితికి సమానంగా ఉంది. మునుపటి నిబంధనలు (version 1) ప్రకారం మీరు అర్హులుగా ఉన్నారు. కానీ ఇప్పుడు మీరు తిరస్కరించబడ్డారు. మీరు ఈ రికార్డు వివరాలను తనిఖీ చేయవచ్చు. మీరు ఈ నిర్ణయాన్ని వ్యతిరేకించవచ్చు. ఈ నిర్ణయం 2026-10-21 తేదీన తీసుకోబడింది.",
+  "source": "gemini-3-flash-preview",
+  "guard": "passed",
+  "tries": [
+   {
+    "problems": []
+   }
+  ]
+ }
+}

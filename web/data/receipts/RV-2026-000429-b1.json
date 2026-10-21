@@ -1,0 +1,73 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000429",
+  "card": "FSC-HYD-812509",
+  "locality": "Yakutpura",
+  "members": [
+   {
+    "name": "Prabhudas Kumar",
+    "relation": "S/o Stephen Babu",
+    "status": "living"
+   },
+   {
+    "name": "Suneetha Kumar",
+    "relation": "W/o Prabhudas Kumar",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Suneetha Kumar",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS13US8283",
+     "name": "Suneetha Kumar",
+     "relation": "W/o Prabhudas Kumar",
+     "locality": "Yakutpura",
+     "year": 2017,
+     "detail": "Kia Seltos"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 496,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x77c1f9eca544dc6fa5c9dad3efc036be5ce75e67eef5af476519b968beff457b"
+ },
+ "receiptHash": "0xbbe7d66c206273a0167ae692f2f0a3a25562fe37a25f4e2c878c609ca26026df",
+ "leaf": "0x26b8f3f5159aa1f99309cf9120f615de855c0e226e6bd76054cadbdd6cf27847",
+ "proof": [
+  "0x946c9860ed93058e381ee5410af88c42f6156c6dc9924084166945bbfb10b5ff",
+  "0xddfa9c74ea66cd31ea2d51f04d9163dc8bfa520bd27fcb88b07e032e33c54c64",
+  "0xdfede864287f46b1c6d8fb1cee14974d54e7e5e0e8efdf052cd369a99a2dde72",
+  "0x1e12c0e83e022943b02ffdb26e5dd2a5da496d0bb57a3de551b12d9def4795aa",
+  "0x9341f12bde4c72079e0dee3c102228fde972078b464aa02c1def3d5effb3e7cd",
+  "0xacdc341ee64185972d19cf70f3b9881b1339ee5c3deeedcbad443880245f973b",
+  "0xee29a760d0901ec05ccacd70656956a9075434b1e0358f15c26050be103ae4bf",
+  "0x998a793b65225003555ccf4b41a1b63ac559c4a6b47180a48890b30c4ad37237",
+  "0xd9ed8fa9dc1ee2a6a311d1413c59d2c4220d2cc7978b5e47bfa6156ffe516dcf",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

@@ -1,0 +1,60 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000533",
+  "card": "FSC-HYD-290224",
+  "locality": "Borabanda",
+  "members": [
+   {
+    "name": "Hanumanthu Reddy",
+    "relation": "S/o Hanumanthu Chilukuri",
+    "status": "living"
+   },
+   {
+    "name": "Padma Reddy",
+    "relation": "W/o Hanumanthu Reddy",
+    "status": "living"
+   },
+   {
+    "name": "Sathaiah Netha",
+    "relation": "S/o Hanumanthu Reddy",
+    "status": "living"
+   },
+   {
+    "name": "Durga Thota",
+    "relation": "D/o Hanumanthu Reddy",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 816,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x01cadbe0450c75f706f3a110248ee0adaf65bae4bdfddae093d767a89cdd127e"
+ },
+ "receiptHash": "0x70cee95838bcacd09e9c978aa6b0fba1a4ad0d1d8cf4eace26dee886432aa6f8",
+ "leaf": "0x13a341793a1406b2faf6be83fc72d5201ee3b4e0f24904c0324f5d6f53f3ae62",
+ "proof": [
+  "0x20b5c11bf11b53b49e19863fd87a6c4710a8e395bd4dce92a40d3e5298b72142",
+  "0xdeb58c08a32f87123e5ca923b68b9fd6c1eefe82db3530ce45eecfb2113db34e",
+  "0x74823a4aad326c1d5aea1a2593da353af75081bb3a888e752fc43ba50ef84497",
+  "0x1b8aea44b058df9951a1ac41421275c5ffdb27bb85909146f3d1944580bd4d34",
+  "0xb283fc1ccdc1900c53c6a771bd43e073650c91f2bc3823d0d2ea39ed430a0a10",
+  "0x4a486d2000ba8ddb97d7784985c43023b61593adbfaa473eebd305d2bd28ccfc",
+  "0x32262e14cc229c4b6928c3f72d5048507d4898ab5be078b0d3aab95829c6109b",
+  "0x5209296ffb04bf571e2084ecea35d6c8e8f0c77dcf65289a1fc4893b39afdec5",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

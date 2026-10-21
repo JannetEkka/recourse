@@ -34,7 +34,7 @@ NETWORKS = {
               "agency": "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
               "legal": "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"},
     "monad": {"rpc": "https://testnet-rpc.monad.xyz", "chainId": 10143,
-              "explorer": "https://testnet.monadexplorer.com"},
+              "explorer": "https://testnet.monadvision.com"},
 }
 
 AGENCY_NAME = "Civil Supplies Department (demo replica, synthetic data)"
@@ -145,7 +145,7 @@ def main():
 
     # The legal-aid worker files appeals and needs a little gas.
     if "legalFunded" not in st and chain.balance(legal) < 10**17:
-        st["legalFunded"] = chain.send(agency_key, "", to=legal, value="0.2ether")
+        st["legalFunded"] = chain.send(agency_key, "", to=legal, value="0.5ether")
         save()
 
     world = World(seed=7, households=a.households)

@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000714",
+  "card": "FSC-HYD-490794",
+  "locality": "Amberpet",
+  "members": [
+   {
+    "name": "Komuraiah Bolla",
+    "relation": "S/o Shankar Netha",
+    "status": "living"
+   },
+   {
+    "name": "Bhagya Bolla",
+    "relation": "W/o Komuraiah Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Durga Goud",
+    "relation": "D/o Komuraiah Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Renuka Madiga",
+    "relation": "D/o Komuraiah Bolla",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Komuraiah Bolla",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS10FR9048",
+     "name": "Komuraiah Bolla",
+     "relation": "S/o Shankar Netha",
+     "locality": "LB Nagar",
+     "year": 2019,
+     "detail": "Kia Seltos"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 752,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xf04417365a3df15aa1165e8e94a76c61d5a0f266534c02daaa9af5894267f049"
+ },
+ "receiptHash": "0xa943f4e0b5c6c28c5f1caa5c8b3fe317c82aed501fba99b2f6419ebffcec557b",
+ "leaf": "0xd43f6f878276d419c0d5824239aa23e878d8c3f650f8f3dc146996b6e66e4a87",
+ "proof": [
+  "0x1343e1b276d3a659bb12bb13329b40b1c48bbe9ede861a05c6c480a7e4967f24",
+  "0x8a68a4c82315c8fa4d4314e982c60e46e05c61a23aec9f00ef688f11a380f275",
+  "0xc3d6801f6ac5718aeccbfc9bb041f26afa83cca5cf8755494e91d997778d74f5",
+  "0x38ec99aa085de1b50ff2ef349645962d6b295ec619d0fe7660949b1b424ce7ee",
+  "0x113a1374258c35cda9f95a530e811ffa046721bc79b94681bf351a09a96e2e4a",
+  "0xf897a367d18f5fcee377fc8e6df0158d819b684db8b591f5df756c73128c2380",
+  "0xf4660054905ab4176efbb13d4308d13596051d1556b0ccf9ef12ecceb95ae6f4",
+  "0x73156fa79dd7767c358a2416467cdec1432cfee9741cd9cce0c7e15a5084720f",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

@@ -1,0 +1,86 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000496",
+  "card": "FSC-HYD-967438",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Ravi Thota",
+    "relation": "S/o Venkanna Yadav",
+    "status": "living"
+   },
+   {
+    "name": "Yadamma Thota",
+    "relation": "W/o Ravi Thota",
+    "status": "living"
+   },
+   {
+    "name": "Shankar Gaddam",
+    "relation": "S/o Ravi Thota",
+    "status": "living"
+   },
+   {
+    "name": "Anjaiah Kommu",
+    "relation": "S/o Ravi Thota",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Yadamma Thota",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS12WF1358",
+     "name": "Yadamma Thota",
+     "relation": "W/o Lingaiah Thota",
+     "locality": "Musheerabad",
+     "year": 2018,
+     "detail": "Maruti Ertiga"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 5000,
+     "locality": 10000,
+     "total": 8250
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 788,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x9881303f426a36ccd2b7272cb3aa1485494c5db2a85696c977edaaf485bab462"
+ },
+ "receiptHash": "0x05e3711ccc6961adcd561a5680ec9c10ab98de0963cfbbc8bef98cd1d2667a70",
+ "leaf": "0xcfefc0c5303a5808c74f554699ce4c353b7d3124ebfb161a992c603e01651040",
+ "proof": [
+  "0x63d77c4a42f30cab0391619c600a58c3daa042873642b71296886d0f30ac1ba3",
+  "0x7f90eb3a17b1873b54d48daeb59fde00b35889e820bd0e5e73915e1503b538b4",
+  "0x96bbe19be7a0537f2612430c9f52c2e34604be4008a100a5be3af412d2c12114",
+  "0xa65ebff2bd472aa10ba3c76a7f2fc6ba23be1faf6a774ab004a45a3ef5224a95",
+  "0x75a60bb221aff857f81fa995b15b356ed6cdfdc443484fc8b2b5e45184b45ed5",
+  "0x2e131b8752e3a150b9058ad428ba0cf556ee26d447fe61ffa13884a23c5c6290",
+  "0x9e93d39495658ef97bca1cd4e63b1d23d0708fdb3ef09177c814c0da3dd78061",
+  "0x2de7e6844eec10bd14ab98be99636bcaf2acfe6ac7bbc26eb64ab8383e3caf45",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

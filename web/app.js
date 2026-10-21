@@ -16,6 +16,7 @@ const ABI = [
   "function isOverdue(uint32) view returns (bool)",
   "function verify(uint32,uint8,bytes32,bytes32[]) view returns (bool)",
 ];
+const READS = new Set(ABI.map((f) => f.match(/function (\w+)/)[1]));
 const OUTCOME = { ELIGIBLE: 1, DENIED: 2 };
 const STATUS = ["Open", "Decision stands", "Decision reversed"];
 const LANGS = { en: "English", hi: "हिन्दी", te: "తెలుగు" };
@@ -42,6 +43,28 @@ function link(kind, value, text) {
   const ex = S.dep && S.dep.explorer;
   if (!ex || !value) return esc(text || value);
   return `<a href="${ex}/${kind}/${value}" target="_blank" rel="noopener">${esc(text || short(value))}</a>`;
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// The public RPC now and then drops a call when many arrive at once. Every read is
+// retried with backoff before the page gives up on it.
+function retrying(contract) {
+  return new Proxy(contract, {
+    get(target, prop) {
+      if (typeof prop !== "string" || !READS.has(prop)) return target[prop];
+      return async (...args) => {
+        for (let i = 0; ; i++) {
+          try {
+            return await target[prop](...args);
+          } catch (e) {
+            if (i >= 4) throw e;
+            await sleep(300 * 2 ** i);
+          }
+        }
+      };
+    },
+  });
 }
 
 async function getJSON(path) {
@@ -81,8 +104,8 @@ async function boot() {
     $app.innerHTML = `<p class="loading">Couldn't load the deployment data (${esc(e.message)}).</p>`;
     return;
   }
-  S.provider = new ethers.JsonRpcProvider(S.dep.rpc, S.dep.chainId, { staticNetwork: true, batchMaxCount: 20 });
-  S.c = new ethers.Contract(S.dep.contract, ABI, S.provider);
+  S.provider = new ethers.JsonRpcProvider(S.dep.rpc, S.dep.chainId, { staticNetwork: true, batchMaxCount: 8 });
+  S.c = retrying(new ethers.Contract(S.dep.contract, ABI, S.provider));
   document.getElementById("foot-links").innerHTML =
     ` Contract ${link("address", S.dep.contract)} · <a href="https://github.com/JannetEkka/recourse">source on GitHub</a>.`;
   window.addEventListener("hashchange", route);
@@ -426,7 +449,12 @@ async function appealSection(r) {
   if (core.outcome !== "DENIED") return;
   const h = receiptHash(core);
   let id = 0;
-  try { id = Number(await S.c.appealOfLeaf(leafOf(OUTCOME.DENIED, h))); } catch { /* shown as not appealed */ }
+  try {
+    id = Number(await S.c.appealOfLeaf(leafOf(OUTCOME.DENIED, h)));
+  } catch (e) {
+    box.innerHTML = `<h2>Appeal</h2><p class="muted">Couldn't reach the chain to look up an appeal (${esc(e.shortMessage || e.message)}). Reload to try again.</p>`;
+    return;
+  }
   if (!id) {
     box.innerHTML = `<h2>Appeal</h2><p class="muted">This decision hasn't been appealed. A legal-aid worker can file the appeal on-chain with the receipt; the family needs no wallet.</p>
       <div class="letter">${esc(templateAppeal(core))}</div>`;

@@ -1,0 +1,77 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-001004",
+  "card": "FSC-HYD-701004",
+  "locality": "Secunderabad",
+  "members": [
+   {
+    "name": "Joseph Prasad",
+    "relation": "S/o David Prasad",
+    "status": "living"
+   },
+   {
+    "name": "Mary Prasad",
+    "relation": "W/o Joseph Prasad",
+    "status": "living"
+   },
+   {
+    "name": "Daniel Prasad",
+    "relation": "S/o Joseph Prasad",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Daniel Prasad",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-418820",
+     "name": "Daniel Prasad",
+     "relation": "S/o Joseph Prasad",
+     "locality": "Secunderabad",
+     "year": 2019,
+     "detail": "Police Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 287,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0xf70be734160bb8a1e4f2ca6f5149b41740fa5d4aeca6d04c9067faf830fdfb56"
+ },
+ "receiptHash": "0x959bf33c29fb703f27ca024274f71fa160eabefb53ed1f1f7168b926a1ccee5a",
+ "leaf": "0xf80050c6e8ff1d34e02f3c1476b1ec4be36baea7e6cb32e6d6521c5d1da61b22",
+ "proof": [
+  "0x422b1ac4716f5eed78fdf3d37db3c5432ddba4ccf847e36fa89c022a743b1eaf",
+  "0x5bacfb93bd6ef75bad0d180dbca728a4693f3eff6f6fa3ca167b4b1655e50fd5",
+  "0x973ca4a51f6e7f144c76bd13f3f23e24d117edc2674d702202baf83fb9c581d7",
+  "0xc1fe824555babc3f1a399d0bc70efbe6e0954af0d18d27fd2920150d7fe8ec6d",
+  "0x48ec0fc7fc4a853fed4738348adbe40c90ebbdbfdd5456210ad8389e7f0b8660",
+  "0x20a418e45d56435f3b159bc3d2aa925710746f89f02e06a9a4188f15d19c01e7",
+  "0x6fe02d217065406a8cbf9230cc9115ed3dfe3113af7976db3748e282cdc460c3",
+  "0x47436b00a53f15155f2fe0da5927ab5e30aa5eae5f8e5608b816394700414412",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

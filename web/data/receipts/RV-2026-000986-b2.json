@@ -1,0 +1,76 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000986",
+  "card": "FSC-HYD-298220",
+  "locality": "Kukatpally",
+  "members": [
+   {
+    "name": "Ravi Pittala",
+    "relation": "S/o Anil Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Sujatha Pittala",
+    "relation": "W/o Ravi Pittala",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Ravi Pittala",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS13NP5330",
+     "name": "Ravi Pittala",
+     "relation": "S/o Anil Bolla",
+     "locality": "Kukatpally",
+     "year": 2021,
+     "detail": "Hyundai i20"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 376,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "DENIED"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x6d1c88301c407b7ae0df761f3e9673ab3e6b081483b8232a3a7214d0544d8467"
+ },
+ "receiptHash": "0x04761ee41a247509d111ca92b7647e46463a488d232b5518c52464e866bb71b0",
+ "leaf": "0xb38568067a13531d582e99076686e2007b435d8e8357ca2502ae3a36e61fe833",
+ "proof": [
+  "0xd04f40b116575b29a0c1afccf560a67a2744d264f7d3dedd393a662675992f0c",
+  "0xa4f803ea469f5d07ac5bd261a6f7a3b81d64057c4c4ae3823d150275643a8cf3",
+  "0x714dd8f7971ca6b0936a8c202f558e39356faceca10f89607c8bbf04e996b354",
+  "0x3fd0ce1c8981a81ef86357bdc90aa0204089e72f3ce1c01da873aa9c8944edbb",
+  "0x041415e48db2e0ca5d4e557fe8df2961f4e592303d8d6703dd49438d8376cf95",
+  "0xfc85a0d67e4037b2861a37429954258b4e87f2eee3dbbe166d59a33fab4e6af5",
+  "0x227417194eb146776b118ca7becb2fdf11f41fab739a101555dafc23e63ab894",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

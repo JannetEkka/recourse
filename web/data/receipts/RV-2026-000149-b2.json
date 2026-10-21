@@ -1,0 +1,76 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000149",
+  "card": "FSC-HYD-674892",
+  "locality": "Borabanda",
+  "members": [
+   {
+    "name": "Daniel Jacob",
+    "relation": "S/o Prabhudas Prasad",
+    "status": "living"
+   },
+   {
+    "name": "Ruth Jacob",
+    "relation": "W/o Daniel Jacob",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Ruth Jacob",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-114349",
+     "name": "Ruth Jacob",
+     "relation": "W/o Daniel Jacob",
+     "locality": "Yakutpura",
+     "year": 2004,
+     "detail": "Health Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 163,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x0e90f9d1b300fb90d3840ae30437f05a3c017b67558c10925dd6c9b7e9ed1c9d"
+ },
+ "receiptHash": "0xbcb2bb324090b3c8b32fea9a29e58ad007d5e6ba8415a935890ac01f9cb8e21e",
+ "leaf": "0xecb6e0cbbda930713887b4b484720a526f27e625b278fcf1137ead1001ba7787",
+ "proof": [
+  "0x88c118733933b114f59f60da3f49c904a4ea387d4bee2d1ced9f8ef84ab40c0f",
+  "0x4c1d044689278fd82fd980b9796f2b1e00679f010fb0cd982d56d665397dab0c",
+  "0x1b7b6e49ec86087614b2a74e7abec72ad55c4ee1dc3a2e0716b56ffca6ad370b",
+  "0x41aa791561315aa1c0d1c211fb10947c0335271b30e17620a7c580d31a6352ce",
+  "0x6c5cb8a769bb3dd727b709722a1989c4513196f925ec5f1bd6ed0c05fe550081",
+  "0x17e7803ba1575cc240bf2d8d990b2732b4ea7409d47d98f13e8c1aa946c51907",
+  "0xa5f19fa8ec70ce96eef69903dca2a8e77d7158edda527b8ab2d2f2ed9ea1d4f7",
+  "0x05c29ccf4f0bbfb687809f5dea56e132a1df10a3baf8c6226dc7999731f2384f",
+  "0xbd6f28fbd0959d5349ee361a5e074f7f94c56bac9cc8ab1b79d68c17f82b3346",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

@@ -1,0 +1,88 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000923",
+  "card": "FSC-HYD-618296",
+  "locality": "LB Nagar",
+  "members": [
+   {
+    "name": "Md Sadiq",
+    "relation": "S/o Mohammed Tahir",
+    "status": "living"
+   },
+   {
+    "name": "Bismillah Begum",
+    "relation": "W/o Md Sadiq",
+    "status": "living"
+   },
+   {
+    "name": "Syed Shafi Farooqui",
+    "relation": "S/o Md Sadiq",
+    "status": "living"
+   },
+   {
+    "name": "Sameer Qureshi",
+    "relation": "S/o Md Sadiq",
+    "status": "living"
+   },
+   {
+    "name": "Kauser Khatoon",
+    "relation": "D/o Md Sadiq",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Md Sadiq",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS09HX9392",
+     "name": "Md Sadiq",
+     "relation": "S/o Mohammed Tahir",
+     "locality": "LB Nagar",
+     "year": 2022,
+     "detail": "Maruti Ertiga"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 495,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x28532f09dce5c814f55087f96147f735f45b9723aff3216229af78f995b5f287"
+ },
+ "receiptHash": "0x13b7fea9d3079e622070d775633028b6706bab1bf9bf4ce43a7160d6d0e4c3e0",
+ "leaf": "0x170a6676d449905fab0a72b6e46751c3d81b2844d030e96ecc511e9b24161746",
+ "proof": [
+  "0x0e8bb53a6e3211104cfeac36c551760506cd51601df9a37be6c76f9ef4461929",
+  "0x467e1735c3837f88b0bd3c20d550084edc13f263c221121bac77a39f6de839e8",
+  "0xd0a681ea76f132aad58d5db0ac4d6b308b22d89beda0c720fa11331cace81729",
+  "0xa10266e9d6b5e671c1bbd08e5389ddb1ba9b464c916600f09a5bdbdcccc158df",
+  "0x3ab077817a1f387dfe6c6121e2909461c7e03dab254eeb891e4967e9ef742e1a",
+  "0xa699caa7550ccd4983af01eb4611c7453497fd16a080b70f893808fe4c540f1b",
+  "0x1a74328151f0f64d959429009dd87d51f2778e52b0d30ab14f073eb407711ac9",
+  "0x6fe02d217065406a8cbf9230cc9115ed3dfe3113af7976db3748e282cdc460c3",
+  "0x47436b00a53f15155f2fe0da5927ab5e30aa5eae5f8e5608b816394700414412",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

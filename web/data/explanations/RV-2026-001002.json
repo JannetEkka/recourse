@@ -1,0 +1,38 @@
+{
+ "en": {
+  "text": "Your household (RV-2026-001002) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- TS07FK2290 (Transport Dept. vehicle registry): Prakash Reddy, S/o Narsimha Reddy, Gachibowli, 2023, matched to Prakash Reddy with score 8500 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 503"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ },
+ "hi": {
+  "text": "आपके खाद्य सुरक्षा कार्ड के आवेदन पर निर्णय लिया गया है। वर्तमान नियम (संस्करण 2) के तहत आपका कार्ड अस्वीकार कर दिया गया है। पहले के नियम (संस्करण 1) के अनुसार आपका आवेदन योग्य था।\n\nयह निर्णय रिकॉर्ड TS07FK2290 के आधार पर लिया गया है। यह रिकॉर्ड Prakash Reddy से जोड़ा गया है क्योंकि इसका कुल स्कोर 10000 में से 8500 है, जो 8000 की सीमा से अधिक है। इसमें नाम का स्कोर 10000, रिश्तेदार का स्कोर 10000, और इलाके का स्कोर 0 है। यह रिकॉर्ड दर्शाता है कि Prakash Reddy के पास 2023 की चार पहिया गाड़ी Maruti Ertiga है।\n\nआप इस रिकॉर्ड और इसके विवरण की जांच कर सकते हैं या इसे चुनौती दे सकते हैं।",
+  "source": "gemini-3.5-flash",
+  "guard": "passed",
+  "tries": [
+   {
+    "problems": []
+   }
+  ]
+ },
+ "te": {
+  "text": "Your household (RV-2026-001002) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- TS07FK2290 (Transport Dept. vehicle registry): Prakash Reddy, S/o Narsimha Reddy, Gachibowli, 2023, matched to Prakash Reddy with score 8500 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 503"
+   },
+   {
+    "error": "HTTPError 503"
+   }
+  ]
+ }
+}

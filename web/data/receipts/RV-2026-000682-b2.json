@@ -1,0 +1,76 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000682",
+  "card": "FSC-HYD-389137",
+  "locality": "LB Nagar",
+  "members": [
+   {
+    "name": "Bhaskar Kumar",
+    "relation": "S/o Pentaiah Bandari",
+    "status": "living"
+   },
+   {
+    "name": "Narsamma Kumar",
+    "relation": "W/o Bhaskar Kumar",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Narsamma Kumar",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS13PV2377",
+     "name": "Narsamma Kumar",
+     "relation": "W/o Bhaskar Kumar",
+     "locality": "LB Nagar",
+     "year": 2012,
+     "detail": "Toyota Innova"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 553,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "DENIED"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x887cb211f8969fa3439cf7fc74dbe29c3a3127ee84501b83ef9373bf7c2a9915"
+ },
+ "receiptHash": "0x02bd29ccfe8cedd5dd72c850fd669b969afc86caf8cad8f08dd9cd6dbaafbd93",
+ "leaf": "0x596ed00653feedebf269d55effd1f2397c609f891406a09325e0da35133abdc6",
+ "proof": [
+  "0x2bacde8083239713213192e35674d593532ad031b4e76fe7ee6745697a30ec37",
+  "0xbe27374b5cc228fa58a58b54dd13adc610f5f6f972f2b16f99e9fdae2f722861",
+  "0xc983a044441645267dc9c014f950367322d5058707a9e113813e02538e90cbb4",
+  "0x8a26a2cd77f8d61912f3d2fa5880097009e26f6bfbc9b84585475726f2fb8848",
+  "0x367ec4b728d7d742187cb852920e4001b4b0cba6eda23aa2c0633e78ab0b0835",
+  "0x96c223049c5aa90403c29da908eace1802308a55f8b3258989db63b53ae137cb",
+  "0xce7c03c2a5fd7ca4ae70a16ee66f05fe9d5b9e9d29ffbd497c0ed9f0cb0e5d64",
+  "0x73156fa79dd7767c358a2416467cdec1432cfee9741cd9cce0c7e15a5084720f",
+  "0x2187b652ca626d5cb24a8e84d21115a00a3f19a0d8e3d66931bd3fc25c098198",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}

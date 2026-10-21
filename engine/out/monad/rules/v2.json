@@ -1,0 +1,64 @@
+{
+  "scheme": "Food security card re-verification (demo replica)",
+  "agency": "Civil Supplies Department (demo)",
+  "version": "v2",
+  "summary": "A household is excluded if any member listed on its card matches a record in the vehicle, income-tax or government-payroll registry.",
+  "change_from_previous": "Matches records registered at any address, to catch assets registered away from home. The name counts for more (5000, was 4500), the locality for less (1500, was 2000), and the threshold drops from 8500 to 8000.",
+  "members_checked": "every member listed on the card, living or deceased",
+  "exclusions": [
+    {
+      "rule": "four_wheeler",
+      "registry": "vehicles",
+      "text": "A member owns a four-wheeler"
+    },
+    {
+      "rule": "income_tax",
+      "registry": "income_tax",
+      "text": "A member pays income tax"
+    },
+    {
+      "rule": "government_job",
+      "registry": "payroll",
+      "text": "A member is a government employee"
+    }
+  ],
+  "matching": {
+    "aliases": {
+      "md": "mohammed",
+      "mohd": "mohammed",
+      "mohammad": "mohammed",
+      "muhammad": "mohammed",
+      "sk": "shaik",
+      "shaikh": "shaik",
+      "yusuf": "yousuf"
+    },
+    "common_tokens": [
+      "mohammed",
+      "syed",
+      "shaik",
+      "begum",
+      "bee",
+      "khatoon"
+    ],
+    "candidates": "registry records that share at least one name token not in common_tokens",
+    "name_similarity": "Dice overlap of name tokens (two tokens match if equal after aliases, or if both have 5+ letters and their difflib ratio is at least token_fuzzy_bp); a name of 2+ tokens wholly inside a longer one scores subset_score_bp instead, if higher",
+    "token_fuzzy_bp": 8500,
+    "subset_score_bp": 9000,
+    "weights_bp": {
+      "name": 5000,
+      "relative": 3500,
+      "locality": 1500
+    },
+    "threshold_bp": 8000,
+    "require_same_locality": false
+  },
+  "appeal_response_days": 30,
+  "code": {
+    "repo": "https://github.com/JannetEkka/recourse",
+    "keccak256": {
+      "engine/recourse/decide.py": "0xbeadc97d77406d9e056d50e49353ac2f0355d18cdebdda8b9fccc58e271d7920",
+      "engine/recourse/hashing.py": "0xf2f72d758a113b1364e6038e2548be18b024b309300377d28de2b0378477026f",
+      "engine/recourse/receipts.py": "0x692036c4909f163cfe954bafc1c7bbca8f150d97b78be806f013a0de0b419ed0"
+    }
+  }
+}

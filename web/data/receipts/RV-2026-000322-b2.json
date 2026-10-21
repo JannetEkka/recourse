@@ -1,0 +1,55 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000322",
+  "card": "FSC-HYD-123468",
+  "locality": "Malakpet",
+  "members": [
+   {
+    "name": "Thirupathi Gaddam",
+    "relation": "S/o Yellaiah Mudiraj",
+    "status": "living"
+   },
+   {
+    "name": "Kavitha Gaddam",
+    "relation": "W/o Thirupathi Gaddam",
+    "status": "living"
+   },
+   {
+    "name": "Swapna Vadde",
+    "relation": "D/o Thirupathi Gaddam",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 594,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xb40bdc5ba4dcf99daed8aca608d6b25db302a9b4e7ca36fb3b27ace705311ee3"
+ },
+ "receiptHash": "0x0a4b3e316465f05192c70ef8662cd03750d9e4df8d2878a53e530ae3c1b9d0e9",
+ "leaf": "0x53b952861871a8709d0696f0b6e7cb637951805583f14eb3d8e95e3c5087c7fe",
+ "proof": [
+  "0x7e05674e2f8f9a54424bde91703749ad812871a2a1c6c1b84b34f38ba6abba28",
+  "0xbd381cd6a324e9ff787e303e2701baa75cd1660f40d60facb85c8c532bab7aff",
+  "0xcd1347f774f1ba1384746c4eb54783a2945252fc5dd5df748af252155c7df864",
+  "0xda48ad0a06f53405219edeb9882654246e9d93649f5ba0419899aefb06cda4db",
+  "0xb80835ac5d91f45691a3ab395a3502ed7b587603f286092fbb4a13dbb81ee7a1",
+  "0xde11012397b8522b0a08b074e9be63db705205f1e60841ee3889ad687d83795b",
+  "0x373de3745a8936ba47aca96262d617518ec8b06887e3208b3631ab9eb546f099",
+  "0x6bbaf366475db793be4275ecac513989bf243eca246b871cbd3e57ae9be9f9fa",
+  "0xcb08f36e7f56cef8ea40db6643008ee738298f4a1df24ac5d9015a545b1a82ee",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

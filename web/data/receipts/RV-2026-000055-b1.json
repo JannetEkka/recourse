@@ -1,0 +1,57 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000055",
+  "card": "FSC-HYD-502375",
+  "locality": "Borabanda",
+  "members": [
+   {
+    "name": "Mohammed Khaja Pasha",
+    "relation": "S/o Shaik Akbar Siddiqui",
+    "status": "living"
+   },
+   {
+    "name": "Salma",
+    "relation": "W/o Mohammed Khaja Pasha",
+    "status": "living"
+   },
+   {
+    "name": "Nasreen Bee",
+    "relation": "D/o Mohammed Khaja Pasha",
+    "status": "living"
+   },
+   {
+    "name": "Mohd Akbar Qureshi",
+    "relation": "S/o Mohammed Khaja Pasha",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 444,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x3eae134ade81b4125e0978ca0c560af520ccaf9b8c0082e547ff6ccd7f691696"
+ },
+ "receiptHash": "0x0dca23dbb300e985a11ae5c2dae5c6d94ecb75feef332f3f153d6f0b32aba060",
+ "leaf": "0x9c5b8d4be50d3a8a0a0eaeec6dfd148db5d98cf2fb93ec25516801a6bdd4a307",
+ "proof": [
+  "0x2a3dacb846d6671ee6533fb540111b6ba0f91c824a7e9383a8415fa1fc29e52a",
+  "0x1d1e3666de355ba28fdde401e743a0915968e63525b311f78bae331b22f99c66",
+  "0x37f33003ea973c28a1ad9fa52ad4b045d1dd5a2b85cb5b7d6bbd06d4d9409d76",
+  "0xa3924038723e759d409197345c3dab9269dca00718f46ecedf16634c112106b9",
+  "0x8a6f4bae4aebc61ffec5f9edd063caf795a9d55c3b84c17ebed1de811a8c0239",
+  "0x5e74e6032ed5c7b9b8a25a359f6ae8161f26382f41bd347dac991740e68c83db",
+  "0x480063bcff204b92b2f31b2ec792b270523a1a6f801ce51a369a3f2b01e9b3ab",
+  "0x8e16a654c4ba6b2fc319805a8593d75a0c1009afd1804dbe7a9fb9e6cf5b5a3a",
+  "0x3ce4d60050e59142ebfc753e5e5ec93e47b4dc7f0475f1d8eae8d11e79fed51d",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

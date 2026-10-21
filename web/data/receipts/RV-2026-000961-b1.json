@@ -1,0 +1,73 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000961",
+  "card": "FSC-HYD-716277",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Balraj Madiga",
+    "relation": "S/o Jagadish Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Mamatha Madiga",
+    "relation": "W/o Balraj Madiga",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Balraj Madiga",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS13PC3501",
+     "name": "Balraj Madiga",
+     "relation": "S/o Jagadish Bolla",
+     "locality": "Musheerabad",
+     "year": 2012,
+     "detail": "Mahindra XUV300"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 371,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x7493ef5e47b7b56796d020889316acd51a5b3fb45e302c949a7ff7c00947c697"
+ },
+ "receiptHash": "0x43e01c4e46785c2ffe31e58877fc756b578ad444c5aadb7a8bd1d70508b856b8",
+ "leaf": "0xdc64c9276d568395f57e96c564d3979df1ff8568fb1a43b1780914abf5acb2a2",
+ "proof": [
+  "0x888eceacd30be44b609ed279fcda5e7d49438fe3d651f6b37ae23e4f4213bfca",
+  "0x62c445274db306d31ce1c1f12e85b8e7a51a0a2d465aacb1adda3beb13b71e50",
+  "0x1e1a44157d81c73d0230bf85e6052e01376150d08833cf7535275ef588094b95",
+  "0xdd710c2ee9a9830eebbfaea92fd93ba14892f203941f849bc0eb6efebf85e3b6",
+  "0xa06836d06b27ba4c2ad59008224820ae67c6e49436e9d2f02a53d6f51fcb03be",
+  "0xbaa00227739092fd91b19586281c54e7d1e5fc9cc0fd67743a71be3bf6a39876",
+  "0x20a418e45d56435f3b159bc3d2aa925710746f89f02e06a9a4188f15d19c01e7",
+  "0x6fe02d217065406a8cbf9230cc9115ed3dfe3113af7976db3748e282cdc460c3",
+  "0x47436b00a53f15155f2fe0da5927ab5e30aa5eae5f8e5608b816394700414412",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

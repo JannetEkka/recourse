@@ -1,0 +1,83 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000081",
+  "card": "FSC-HYD-586451",
+  "locality": "Borabanda",
+  "members": [
+   {
+    "name": "Mohammed Akbar",
+    "relation": "S/o Md Arif",
+    "status": "living"
+   },
+   {
+    "name": "Rukhsana",
+    "relation": "W/o Mohammed Akbar",
+    "status": "living"
+   },
+   {
+    "name": "Gulshan Khatoon",
+    "relation": "D/o Mohammed Akbar",
+    "status": "living"
+   },
+   {
+    "name": "Mohammed Asif Ansari",
+    "relation": "S/o Mohammed Akbar",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Gulshan Khatoon",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS12AP7713",
+     "name": "Gulshan Khatoon",
+     "relation": "D/o Mohammed Akbar",
+     "locality": "Borabanda",
+     "year": 2012,
+     "detail": "Mahindra XUV300"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 329,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x49d8b4d7d3d9563382df7613f1e06e87596e4b53407ca22e8236857ec49f1ceb"
+ },
+ "receiptHash": "0xf351b37d006c3a60421344f9126c4846e742ebd2980ca35795d90d61080f07e9",
+ "leaf": "0x3e9c2c8c1664c1cc01e5e13d5526be7e6c61e663205c4f0402a03f04457bad04",
+ "proof": [
+  "0x8a7b583199bf153c590a1091a47c7f970c6cbc75753f753cf0d52575264bfd97",
+  "0x66c4b07f3fa81c234c81cea989b843151e39d54a6bcaa30004ade79dc8409ef6",
+  "0x1dad95a4d1bb84052ff1a09e7e608fb2b493e9133492fa483c538ced4929237a",
+  "0x11421856e8d6f0f5e2c40f181ca39a121c07a1cc3e54e2a690eb0c0ab5008561",
+  "0xab62e1ffe40d7ff68a6b1c2d3eaa264dbd7abab09db9729ea48b22d5dc9fba45",
+  "0x5eae58be9b12fbf9b6a71e5c21790e23dba3355e5b24a01ac7e620e4d4ae6181",
+  "0x1f78e518b3bd760358f813d3315327d18d80333671f7a9d450ab87cfaf8e281f",
+  "0x8e16a654c4ba6b2fc319805a8593d75a0c1009afd1804dbe7a9fb9e6cf5b5a3a",
+  "0x3ce4d60050e59142ebfc753e5e5ec93e47b4dc7f0475f1d8eae8d11e79fed51d",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

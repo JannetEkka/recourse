@@ -1,0 +1,88 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000666",
+  "card": "FSC-HYD-328063",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Syed Majeed Hyder",
+    "relation": "S/o Mohd Iqbal Qureshi",
+    "status": "living"
+   },
+   {
+    "name": "Rukhsana Begum",
+    "relation": "W/o Syed Majeed Hyder",
+    "status": "living"
+   },
+   {
+    "name": "Shabana",
+    "relation": "D/o Syed Majeed Hyder",
+    "status": "living"
+   },
+   {
+    "name": "Mohammed Iqbal Pasha",
+    "relation": "S/o Syed Majeed Hyder",
+    "status": "living"
+   },
+   {
+    "name": "Syed Ibrahim Ansari",
+    "relation": "S/o Syed Majeed Hyder",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Syed Majeed Hyder",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-642440",
+     "name": "Syed Majeed Hyder",
+     "relation": "S/o Mohd Iqbal Qureshi",
+     "locality": "Musheerabad",
+     "year": 2019,
+     "detail": "School Education Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 10000,
+     "total": 10000
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 647,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x63215daf623f079c07e1ecd86cbcb11c7d11afd9f6c8e9a52cb2a218cc1e9f45"
+ },
+ "receiptHash": "0xb718ee30e9c5c1694d3280481c37fdc4faaa0b58c193466f047265e2ab4958e1",
+ "leaf": "0xe7f120b24bc4e14d1eaa3e6c4ddd5c5396437a9ac20d7c2bccaf5d83ec149d84",
+ "proof": [
+  "0x1c886134cc791e19a9b170dddb9a1814d1d41f90e11073abe2c818c457df2db8",
+  "0x4608d1f63f657f47e86998d1f19adc61b411a95a38c10d9bd4a08e437041ac3b",
+  "0xf6ae3215d4f38ed2399af8d1cc633e21e5e5d5064789d5daeed6b22311bccafd",
+  "0xe38842429a4263021321da542a60650c1e6fc36b3d75677fccb53ab1b7537b13",
+  "0x96e40635094f51cf3c450c19467f9848b29b5167bc133e685e291eff847b55e9",
+  "0x6c6b4480c79c01e1509e1b33e8f2bf5bb71cdb680f86c38c2dbc8636e29acf84",
+  "0x1dc286f29ae1fcd5d0f11b9c303bd947b8338d2bef3254aa38be8be8e32660fb",
+  "0x1aa4c20bb9d5236cd8b2fa63b3a77bac1e9d9897757898c98c05622dedcb396a",
+  "0x177c03e0c4c5c5db6adf07ed360c68497f975d060af87e1910d720ea33c761f7",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

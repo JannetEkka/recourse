@@ -1,0 +1,91 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000181",
+  "card": "FSC-HYD-832350",
+  "locality": "Kukatpally",
+  "members": [
+   {
+    "name": "Md Shafi",
+    "relation": "S/o Syed Ismail",
+    "status": "living"
+   },
+   {
+    "name": "Amina",
+    "relation": "W/o Md Shafi",
+    "status": "living"
+   },
+   {
+    "name": "Ayesha Bee",
+    "relation": "D/o Md Shafi",
+    "status": "living"
+   },
+   {
+    "name": "Yasmeen Begum",
+    "relation": "D/o Md Shafi",
+    "status": "living"
+   },
+   {
+    "name": "Mohd Moin Hyder",
+    "relation": "S/o Md Shafi",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Amina",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS11RR1428",
+     "name": "Amina",
+     "relation": "W/o Md Tahir",
+     "locality": "Kukatpally",
+     "year": 2024,
+     "detail": "Tata Nexon"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 5000,
+     "locality": 10000,
+     "total": 8250
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 329,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x8086291614178be5c3832437e22e858c277a81a017f746c9f16fda70114b38ea"
+ },
+ "receiptHash": "0xd12349c720fc79c48604b065943a136fe7bd878e8baeaab5eafe027533bb1235",
+ "leaf": "0xef4c3320cabc96186d147e4afbd17693d544db91874f8d0f4cb1aee0b069476e",
+ "proof": [
+  "0x1a53c502a97769eff5891f031382b7250d42f896e68846a590ff3c20f16552ad",
+  "0xb83a4410e4415f03866120db2821185ea345647002b590b956f28fed1ea00bcf",
+  "0x5e0334f6bb542cb65d141ef4334f924b30ad262f3a75592d3626343bda7acd1a",
+  "0x4ac86751e67444b02b69f69414c5f44033e3e408799a6dd7af445cf14a2fa265",
+  "0x317c802da232da26a179948fe0e7ed1d8483950f35c38f33e3de47fda9ba9785",
+  "0x8fc25570d2aa64d19b83916f9c452027e67e9d1a1002539daeb32d8a80ed9dd7",
+  "0xa5f19fa8ec70ce96eef69903dca2a8e77d7158edda527b8ab2d2f2ed9ea1d4f7",
+  "0x05c29ccf4f0bbfb687809f5dea56e132a1df10a3baf8c6226dc7999731f2384f",
+  "0xbd6f28fbd0959d5349ee361a5e074f7f94c56bac9cc8ab1b79d68c17f82b3346",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

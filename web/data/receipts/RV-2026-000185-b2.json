@@ -1,0 +1,91 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000185",
+  "card": "FSC-HYD-685649",
+  "locality": "Amberpet",
+  "members": [
+   {
+    "name": "Daniel Jacob",
+    "relation": "S/o Stephen Babu",
+    "status": "living"
+   },
+   {
+    "name": "Ruth Jacob",
+    "relation": "W/o Daniel Jacob",
+    "status": "living"
+   },
+   {
+    "name": "Ruth Emmanuel",
+    "relation": "D/o Daniel Jacob",
+    "status": "living"
+   },
+   {
+    "name": "Peter Emmanuel",
+    "relation": "S/o Daniel Jacob",
+    "status": "living"
+   },
+   {
+    "name": "Suneetha Raj",
+    "relation": "D/o Daniel Jacob",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "government_job",
+    "ruleText": "A member is a government employee",
+    "member": "Ruth Jacob",
+    "record": {
+     "registry": "State government payroll",
+     "id": "EMP-TSG-114349",
+     "name": "Ruth Jacob",
+     "relation": "W/o Daniel Jacob",
+     "locality": "Yakutpura",
+     "year": 2004,
+     "detail": "Health Department"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 450,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0xed99326a78abca98734641af866c48883d86b6b0ba4773d158813556c685f183"
+ },
+ "receiptHash": "0x9a1581f7edabf0a22956771c54438081246fbb98537275ec17aadb61619fbf47",
+ "leaf": "0x41e821c8d7134c01a1febd8229770272338d0c3b35b99c3e12355753e5a8949b",
+ "proof": [
+  "0x01fa95e5c391d92e3cc75de1d46e2c8df2b2ba3e297a0a01459266cf6f80dc0a",
+  "0x70a89efcd21356c4ec9c1d87dbfc74a79bf29748e750d46129757136b1f509d8",
+  "0x94397b24d2b3ae493bddc6392d74c34eb342204f29a6852dae56d740b6459dc0",
+  "0x3c204c90b2aaf384d1e07d3439365ab7aec53ae7090a023c9dba0d01cc56d95f",
+  "0x317c802da232da26a179948fe0e7ed1d8483950f35c38f33e3de47fda9ba9785",
+  "0x8fc25570d2aa64d19b83916f9c452027e67e9d1a1002539daeb32d8a80ed9dd7",
+  "0xa5f19fa8ec70ce96eef69903dca2a8e77d7158edda527b8ab2d2f2ed9ea1d4f7",
+  "0x05c29ccf4f0bbfb687809f5dea56e132a1df10a3baf8c6226dc7999731f2384f",
+  "0xbd6f28fbd0959d5349ee361a5e074f7f94c56bac9cc8ab1b79d68c17f82b3346",
+  "0x8f137fda8ca5f0c9f03d25b1705307bd41d6aa5400cd8aae22dba442b63f3480"
+ ],
+ "batchId": 2
+}

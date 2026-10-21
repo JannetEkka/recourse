@@ -1,0 +1,41 @@
+{
+ "en": {
+  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ },
+ "hi": {
+  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ },
+ "te": {
+  "text": "Your household (RV-2026-001005) was refused under rules v2.\nThese 2 records decided it together. All of them would have to be shown not to be your family's:\n- TS10AB7731 (Transport Dept. vehicle registry): Md Imran, S/o Md Yousuf Khan, Tolichowki, 2021, matched to Mohammed Imran with score 8150 (threshold 8000).\n- ITR-AY2025-26-604418 (Income-tax returns): Mohd Imran Siddiqui, S/o Mohammed Yusuf, Malakpet, 2026, matched to Mohammed Imran with score 8000 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
+  "source": "template",
+  "guard": "model drafts failed; template used",
+  "tries": [
+   {
+    "error": "HTTPError 429"
+   },
+   {
+    "error": "HTTPError 429"
+   }
+  ]
+ }
+}

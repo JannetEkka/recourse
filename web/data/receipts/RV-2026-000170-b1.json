@@ -1,0 +1,62 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000170",
+  "card": "FSC-HYD-348409",
+  "locality": "Borabanda",
+  "members": [
+   {
+    "name": "Ramulu Yadav",
+    "relation": "S/o Anjaiah Mudiraj",
+    "status": "living"
+   },
+   {
+    "name": "Anitha Yadav",
+    "relation": "W/o Ramulu Yadav",
+    "status": "living"
+   },
+   {
+    "name": "Pentaiah Yadav",
+    "relation": "S/o Ramulu Yadav",
+    "status": "living"
+   },
+   {
+    "name": "Mahesh Kumar",
+    "relation": "S/o Ramulu Yadav",
+    "status": "living"
+   },
+   {
+    "name": "Sarojana Chary",
+    "relation": "D/o Ramulu Yadav",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 1169,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x3244b46a388a57b907c48d860811d3b2a5d7e7bd47840ff4902978215e8b927e"
+ },
+ "receiptHash": "0x029a7a75f93bce8f2e966c25594149a2322e6ac46a263a22c6f1e4e52244b843",
+ "leaf": "0x36d65c96daf20be9ce556a48d0b797f2ffc4f404b21e016bd5d071b48a7262d8",
+ "proof": [
+  "0xb8121a31bc0d460c823f17a7e0df993a2cfc59a2007624271ba558f03b52526b",
+  "0xa84a81e7a3ac2641ccb7c7ebb6d0853ef6a44b4edb968d911938f709d218ca5b",
+  "0x6e173bf69c7215725bb563e14ab82ec6eb79660fa3bf3fb39fd0f34751ba2450",
+  "0x196d291a1d1ffdfb8419dd4c749780359ac78acb5d01531766fadaea9dd1e0c8",
+  "0x61c1a09ace6f6f8a881483f4155a46bea549b2494e95241eab5b803ec882cf27",
+  "0x21993bc89763692d1bd92e3755f97d6e6531d5a080d7e6a71030633567e0cc67",
+  "0x1d38edd2bd6e958ad5d0b01fed15a4e956d42db46dbafa4942ca4a9574a0d2a3",
+  "0x9d74cad5ded531522eb0db75cf9afeeb3e95a877a33d24277107b7283ffc815e",
+  "0x3ce4d60050e59142ebfc753e5e5ec93e47b4dc7f0475f1d8eae8d11e79fed51d",
+  "0x62a5a445486931e3ba12f535157983e5f04ba9cdce11af658c90cf9399c39abb"
+ ],
+ "batchId": 1
+}

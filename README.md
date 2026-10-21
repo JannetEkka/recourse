@@ -3,8 +3,8 @@
 Receipts for welfare algorithms. Every automated eligibility decision is sealed on a public chain under rules the agency had to publish first. The family gets the records that actually decided their case, in their own language, and an appeal the agency can't lose or quietly ignore.
 
 - **Live:** https://jannetekka.github.io/recourse/
-- **Contract:** [`{{CONTRACT}}`]({{EXPLORER}}/address/{{CONTRACT}}) on Monad testnet (chain 10143)
-- **Demo video:** {{VIDEO}}
+- **Contract:** [`0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce`](https://testnet.monadvision.com/address/0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce) on Monad testnet (chain 10143), source verified on [Sourcify](https://repo.sourcify.dev/10143/0x0113802632a88F7f5Ebd7603a8eea5f31e5c30CE)
+- **Demo video (2:54, captioned):** [media/demo/recourse-demo.mp4](media/demo/recourse-demo.mp4), captions in [recourse-demo.srt](media/demo/recourse-demo.srt)
 - Built for [Web3 for Social Good 2026](https://dorahacks.io/hackathon/web3-social-good-2026/detail), Tech Track.
 
 ## The problem
@@ -95,4 +95,4 @@ cd ../web && python -m http.server 8000         # then open http://localhost:800
 - Receipts carry other people's registry records (the stranger's car). A real deployment needs a rule for how much of a matched record the family may see.
 - The keys are testnet-only and have never held real funds.
 
-Built by Jannet Akanksha Ekka with Claude Code as the coding assistant. Gemini writes the explanations and appeal drafts; the guard above decides whether they're used.
+Built by Jannet Akanksha Ekka with Claude Code as the coding assistant. Gemini writes the explanations and appeal drafts; the guard above decides whether they're used. The demo narration is a synthetic voice (edge-tts) reading my script; `media/demo/` has the script and the tools that recorded it.

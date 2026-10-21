@@ -1,0 +1,56 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000997",
+  "card": "FSC-HYD-291217",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Mohammed Tahir Ansari",
+    "relation": "S/o Ghouse Quadri",
+    "status": "living"
+   },
+   {
+    "name": "Gulshan Begum",
+    "relation": "W/o Mohammed Tahir Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Syed Majeed Khan",
+    "relation": "S/o Mohammed Tahir Ansari",
+    "status": "living"
+   },
+   {
+    "name": "Syed Nawaz Qureshi",
+    "relation": "S/o Mohammed Tahir Ansari",
+    "status": "living"
+   }
+  ],
+  "outcome": "ELIGIBLE",
+  "reasons": [],
+  "decisive": [],
+  "recordsChecked": 631,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0x77140447c5e8eda5ac22e47f279138e9b0dc91af7947974dc650fefab59e8362"
+ },
+ "receiptHash": "0x99f93a82892f0c9d77261958723f71bfe5719085e153e807927cc8865dbde1e8",
+ "leaf": "0x7a594b992da1052603b5b06faa942d2e27c1655391d9c00b86b18dff5b04e075",
+ "proof": [
+  "0x74c91df92f74f6b64e2c03cfd46b8aa33554db7ff17bf09307b945e291a82e0f",
+  "0xfbf77d567f08614cf9aa5abd2239d3c67433ff9f4a74634fdb8df30e133d51c0",
+  "0xc4ea0d387345f8e9099ac8896fbba69e6d46c6241eb3e436d2a67f4b963f312b",
+  "0xe4f88974e1d9fcd7f3a6b3ba0e76752c95c3b809f1b89cd1920a9d1ad20933c0",
+  "0x48ec0fc7fc4a853fed4738348adbe40c90ebbdbfdd5456210ad8389e7f0b8660",
+  "0x20a418e45d56435f3b159bc3d2aa925710746f89f02e06a9a4188f15d19c01e7",
+  "0x6fe02d217065406a8cbf9230cc9115ed3dfe3113af7976db3748e282cdc460c3",
+  "0x47436b00a53f15155f2fe0da5927ab5e30aa5eae5f8e5608b816394700414412",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

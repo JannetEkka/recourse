@@ -1,0 +1,78 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 1,
+  "rulesHash": "0xc11833be8144b26e36534e9b39f9eb473f6f4637bd859602ece9dfe33f80d213",
+  "application": "RV-2026-000614",
+  "card": "FSC-HYD-974003",
+  "locality": "Bahadurpura",
+  "members": [
+   {
+    "name": "Md Ahmed Siddiqui",
+    "relation": "S/o Md Mustafa Baig",
+    "status": "living"
+   },
+   {
+    "name": "Gulshan",
+    "relation": "W/o Md Ahmed Siddiqui",
+    "status": "living"
+   },
+   {
+    "name": "Md Habeeb Hashmi",
+    "relation": "S/o Md Ahmed Siddiqui",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Gulshan",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS11KN5818",
+     "name": "Gulshan",
+     "relation": "W/o Mohammed Mujeeb Siddiqui",
+     "locality": "Bahadurpura",
+     "year": 2025,
+     "detail": "Maruti Swift"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 6667,
+     "locality": 10000,
+     "total": 8833
+    },
+    "thresholdBp": 8500
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 485,
+  "previous": null,
+  "decidedOn": "2026-10-21",
+  "salt": "0xdeb5a295d0b39501d9908912054d2adc60a01b6487dda0c60719369d69573343"
+ },
+ "receiptHash": "0x93b4090fb3eef163939a87c8e5d78a7fc8cbcfc499e795a8226db2fccdfb9133",
+ "leaf": "0xe9b0d5edaa88d67340d9c8fa1bfb003bb1d2325d7ce51f3bc934f03fca7a2a21",
+ "proof": [
+  "0xb4723f2f8042b676454c80cdf9b66e19976d5138dd309e9899a49be1554936c4",
+  "0xbcc710f3302e1e606aad50399aa3968c8a8316d11b2c7844c6da6ced733dbd98",
+  "0x2be6b4d5aa68f82d218d6c42c3d4202bedcde94da404559b4404830c32af9438",
+  "0x1a15f7688cfa6b8c99dd73c24c317613201975d6f9d4378fb5101c9fdb98a4f5",
+  "0x008e3d607d699600d8eb9456c8f1b84137b8fd0015f99d443a52b158fa8a569a",
+  "0x761798c6a8a1907f6082b7c9e0b4e0eee05e28a3a76b72388b2b517190d35666",
+  "0xbb373d5982dcc4caebec66b6943696eaf1d9a4114ade4741f509b0df2f3fb2b4",
+  "0x53ec5267efa042cb31889a29d0b265ae4b2d7c718b6095eaecc27beff82db98d",
+  "0x177c03e0c4c5c5db6adf07ed360c68497f975d060af87e1910d720ea33c761f7",
+  "0x9b6b48f7bf0402c2425b523faf712964887c47b298a22358d974cc37bb7e77db"
+ ],
+ "batchId": 1
+}

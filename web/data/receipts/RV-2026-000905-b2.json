@@ -1,0 +1,76 @@
+{
+ "core": {
+  "v": 1,
+  "chainId": 10143,
+  "contract": "0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce",
+  "agency": "0x5e5e6c8ed5ac46b4905d45e16d1d90802ed0b81e",
+  "rulesetId": 2,
+  "rulesHash": "0x41eae8b96e69758580daad261c498069ec769ca9029ecf2f53e816f11d53ffc3",
+  "application": "RV-2026-000905",
+  "card": "FSC-HYD-882706",
+  "locality": "Musheerabad",
+  "members": [
+   {
+    "name": "Venkatesh Madiga",
+    "relation": "S/o Srisailam Bolla",
+    "status": "living"
+   },
+   {
+    "name": "Manjula Madiga",
+    "relation": "W/o Venkatesh Madiga",
+    "status": "living"
+   }
+  ],
+  "outcome": "DENIED",
+  "reasons": [
+   {
+    "rule": "four_wheeler",
+    "ruleText": "A member owns a four-wheeler",
+    "member": "Venkatesh Madiga",
+    "record": {
+     "registry": "Transport Dept. vehicle registry",
+     "id": "TS09BU9624",
+     "name": "Venkatesh Madiga",
+     "relation": "S/o Srisailam Bolla",
+     "locality": "Banjara Hills",
+     "year": 2022,
+     "detail": "Honda City"
+    },
+    "scoreBp": {
+     "name": 10000,
+     "relative": 10000,
+     "locality": 0,
+     "total": 8500
+    },
+    "thresholdBp": 8000
+   }
+  ],
+  "decisive": [
+   [
+    0
+   ]
+  ],
+  "recordsChecked": 373,
+  "previous": {
+   "rulesetId": 1,
+   "outcome": "ELIGIBLE"
+  },
+  "decidedOn": "2026-10-21",
+  "salt": "0x4822516e950c60b0ad8ba4615940a212cbd7c6932ef328cf325d75c4e7d3b131"
+ },
+ "receiptHash": "0x25ec56aed70889f915806d458c6ba507c75ca5157fd9ea02b9bf9efa556a7d51",
+ "leaf": "0xc4b95d5dd5ca4779be40ef8b36d759f648330a0b9e988591eb2cfff776db7a5a",
+ "proof": [
+  "0xe5825f38bde6d0e7cf530fa5be6568425a7833dfe2f1c65c5a52c97423060379",
+  "0xd77e43a6ef212dec0f85ae78f8fd4f0b63d3c99ff53f1203852d1e7ccf918ace",
+  "0xe704e05c66f0237cfd7efa6abe88cef3eaf7f6336688792f75ff0aebe3e94c14",
+  "0x4bfc858b0c041d75e7673308c263e1b297bb3d2741de8920afcf3094c056c3ad",
+  "0x217647116c7eb2fcb7adca1ab4f3825343fbf048fb1d4cb367b5751389d44a04",
+  "0x987da8592df2e78d84842e992bf90a50c5e543c186884dc61bdf043be63a07af",
+  "0x1f8a440d9c5f8b37711c7744c15078ccf0fecae76f84b2ca1d5004ff83478f44",
+  "0xd113df9b00b7871ec8e7d1a61edf4a13dd90488e9f00452d28bc6ac8b429cc63",
+  "0x848a3085f528de81202b7b21eb572a806125e77a8c0c6ad0ba6a2c730678693c",
+  "0x0cb64774253b29b08187e6b2dd95f23d1fed1c8931c5bae26908a13ada69875e"
+ ],
+ "batchId": 2
+}
