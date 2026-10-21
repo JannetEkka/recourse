@@ -5,10 +5,24 @@
   "guard": "model drafts failed; template used",
   "tries": [
    {
-    "error": "HTTPError 429"
+    "error": "HTTPError 503"
    },
    {
-    "error": "HTTPError 429"
+    "problems": [
+     "number not in the receipt: 8000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 5000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 3500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 1500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 5",
+     "number not in the receipt: 8500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 9000",
+     "number not in the receipt: 10000"
+    ]
    }
   ]
  },
@@ -18,10 +32,27 @@
   "guard": "model drafts failed; template used",
   "tries": [
    {
-    "error": "HTTPError 429"
+    "problems": [
+     "number not in the receipt: 10000",
+     "number not in the receipt: 8000",
+     "number not in the receipt: 5000",
+     "number not in the receipt: 3500",
+     "number not in the receipt: 1500",
+     "number not in the receipt: 8500",
+     "number not in the receipt: 9000"
+    ]
    },
    {
-    "error": "HTTPError 429"
+    "problems": [
+     "number not in the receipt: 10000",
+     "number not in the receipt: 8000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 5000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 3500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 1500"
+    ]
    }
   ]
  },
@@ -31,10 +62,33 @@
   "guard": "model drafts failed; template used",
   "tries": [
    {
-    "error": "HTTPError 429"
+    "problems": [
+     "number not in the receipt: 10000",
+     "number not in the receipt: 8000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 5000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 3500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 1500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 8500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 9000",
+     "number not in the receipt: 5"
+    ]
    },
    {
-    "error": "HTTPError 429"
+    "problems": [
+     "number not in the receipt: 10000",
+     "number not in the receipt: 8000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 5000",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 3500",
+     "number not in the receipt: 10000",
+     "number not in the receipt: 1500"
+    ]
    }
   ]
  }

@@ -1,14 +1,11 @@
 {
  "en": {
-  "text": "Your household (RV-2026-001002) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- TS07FK2290 (Transport Dept. vehicle registry): Prakash Reddy, S/o Narsimha Reddy, Gachibowli, 2023, matched to Prakash Reddy with score 8500 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "Your application RV-2026-001002 for food-security card FSC-HYD-701002 was refused. The decision was based on record TS07FK2290. This record was linked to Prakash Reddy because it has a total score of 8500 out of 10000. This is above the threshold of 8000. The name score is 10000 out of 10000 and the relative score is 10000 out of 10000. The locality score is 0. The record shows a member owns a four-wheeler. Under the earlier rules (version 1), you were eligible. However, under the current rules (version 2), you are refused. You can check or contest the details in record TS07FK2290.",
+  "source": "gemini-3-flash-preview",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  },
@@ -23,15 +20,12 @@
   ]
  },
  "te": {
-  "text": "Your household (RV-2026-001002) was refused under rules v2.\nThis record alone decided it. If it is not your family's, you are eligible:\n- TS07FK2290 (Transport Dept. vehicle registry): Prakash Reddy, S/o Narsimha Reddy, Gachibowli, 2023, matched to Prakash Reddy with score 8500 (threshold 8000).\nUnder the previous rules (ruleset 1) the decision was ELIGIBLE.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "మీ ఆహార భద్రత కార్డు దరఖాస్తు RV-2026-001002 ప్రస్తుత నిబంధనల (version 2) ప్రకారం తిరస్కరించబడింది. రవాణా శాఖ వాహన రిజిస్ట్రీలోని TS07FK2290 అనే రికార్డు ఆధారంగా ఈ నిర్ణయం తీసుకున్నారు. ఈ రికార్డులో Prakash Reddy పేరు మీద Maruti Ertiga అనే నాలుగు చక్రాల వాహనం ఉన్నట్లు ఉంది. Prakash Reddy పేరు మరియు తండ్రి పేరు సరిపోలడం వల్ల ఈ రికార్డు మీ కుటుంబానికి లింక్ చేయబడింది. ఈ రికార్డు యొక్క స్కోరు 10000 కి 8500 గా ఉంది. ఇది నిర్ణీత 8000 పరిమితి కంటే ఎక్కువ. మునుపటి నిబంధనల (version 1) ప్రకారం మీరు ఈ కార్డుకు అర్హులు. కానీ ప్రస్తుత నిబంధనల ప్రకారం ఇప్పుడు తిరస్కరించబడ్డారు. మీరు ఈ రికార్డు వివరాలను మరియు వాహన యాజమాన్య సమాచారాన్ని తనిఖీ చేయవచ్చు. ఒకవేళ ఈ సమాచారం తప్పు అని మీరు భావిస్తే, మీరు దీనిని సవాలు చేయవచ్చు.",
+  "source": "gemini-3-flash-preview",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 429"
-   },
-   {
-    "error": "HTTPError 429"
+    "problems": []
    }
   ]
  }
