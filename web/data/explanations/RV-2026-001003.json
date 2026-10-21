@@ -1,94 +1,31 @@
 {
  "en": {
-  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "Your family is eligible for food-security card FSC-HYD-701003 under the current rules (version 2). The decision on application RV-2026-001003 was made on 2026-10-21. Under the earlier rules (version 1), your family was also eligible.\n\nThere are no decisive records listed for this decision. Therefore, no outside records were linked to your family.\n\nYou can check the details recorded for your family. The card lists your locality as Uppal. The living members are Lakshmi Mudiraj, Balraj Mudiraj, and Renuka Mudiraj. You can check the listed names and relations, including Lakshmi Mudiraj as W/o Balraj Mudiraj, Balraj Mudiraj as S/o Yadaiah Mudiraj, and Renuka Mudiraj as D/o Balraj Mudiraj. You can contest this recorded information if any of it is not correct.",
+  "source": "gemini-flash-latest",
+  "guard": "passed",
   "tries": [
    {
-    "error": "HTTPError 503"
-   },
-   {
-    "problems": [
-     "number not in the receipt: 8000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 5000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 3500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 1500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 5",
-     "number not in the receipt: 8500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 9000",
-     "number not in the receipt: 10000"
-    ]
+    "problems": []
    }
   ]
  },
  "hi": {
-  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "आपके खाद्य सुरक्षा कार्ड FSC-HYD-701003 और आवेदन RV-2026-001003 पर निर्णय 2026-10-21 को लिया गया है। the current rules (version 2) के अनुसार आपका परिवार पात्र पाया गया है। the earlier rules (version 1) के तहत भी आपका परिवार पात्र था, इसलिए पिछले नियमों ने अलग निर्णय नहीं दिया था। इस निर्णय में कोई निर्णायक रिकॉर्ड शामिल नहीं है और किसी भी रिकॉर्ड को आपके परिवार से नहीं जोड़ा गया है। आपके आवेदन में आपका इलाका Uppal दर्ज है। इसमें परिवार के सदस्य Lakshmi Mudiraj, Balraj Mudiraj और Renuka Mudiraj दर्ज हैं। आप अपने आवेदन के इन सभी विवरणों, सदस्यों के नाम और इस निर्णय की जांच कर सकते हैं या इसे चुनौती दे सकते हैं।",
+  "source": "gemini-flash-latest",
+  "guard": "passed",
   "tries": [
    {
-    "problems": [
-     "number not in the receipt: 10000",
-     "number not in the receipt: 8000",
-     "number not in the receipt: 5000",
-     "number not in the receipt: 3500",
-     "number not in the receipt: 1500",
-     "number not in the receipt: 8500",
-     "number not in the receipt: 9000"
-    ]
-   },
-   {
-    "problems": [
-     "number not in the receipt: 10000",
-     "number not in the receipt: 8000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 5000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 3500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 1500"
-    ]
+    "problems": []
    }
   ]
  },
  "te": {
-  "text": "Your household (RV-2026-001003) is eligible under rules v2. No record in the vehicle, income-tax or payroll registries was counted against any member of your card.",
-  "source": "template",
-  "guard": "model drafts failed; template used",
+  "text": "మీ ఆహార భద్రత కార్డు FSC-HYD-701003 మరియు దరఖాస్తు RV-2026-001003 పై తీసుకున్న నిర్ణయం ఇది. ప్రస్తుత నిబంధనలు (version 2) ప్రకారం మీ కుటుంబం అర్హులు అని నిర్ణయించబడింది. ఈ నిర్ణయం 2026-10-21 న జరిగింది. మునుపటి నిబంధనలు (version 1) ప్రకారం కూడా మీ కుటుంబం అర్హులు అని నిర్ణయం ఉంది. కాబట్టి మునుపటి నిర్ణయంలో మార్పు లేదు.\n\nఈ నిర్ణయం తీసుకోవడానికి ఎటువంటి decisive రికార్డులు లింక్ కాలేదు. నిర్ణయానికి కారణమైన రికార్డులు ఏవీ లేవు.\n\nమీరు మీ దరఖాస్తు వివరాలను సరిచూసుకోవచ్చు లేదా contest చేయవచ్చు. మీ కార్డులో ప్రాంతం Uppal అని ఉంది. కుటుంబంలో Lakshmi Mudiraj సంబంధం W/o Balraj Mudiraj గా, Balraj Mudiraj సంబంధం S/o Yadaiah Mudiraj గా, Renuka Mudiraj సంబంధం D/o Balraj Mudiraj గా living స్థితిలో ఉన్నారు. ఈ వివరాలను మీరు సరిచూసుకోవచ్చు లేదా contest చేయవచ్చు.",
+  "source": "gemini-flash-latest",
+  "guard": "passed",
   "tries": [
    {
-    "problems": [
-     "number not in the receipt: 10000",
-     "number not in the receipt: 8000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 5000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 3500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 1500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 8500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 9000",
-     "number not in the receipt: 5"
-    ]
-   },
-   {
-    "problems": [
-     "number not in the receipt: 10000",
-     "number not in the receipt: 8000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 5000",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 3500",
-     "number not in the receipt: 10000",
-     "number not in the receipt: 1500"
-    ]
+    "problems": []
    }
   ]
  }
