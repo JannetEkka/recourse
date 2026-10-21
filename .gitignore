@@ -1,0 +1,9 @@
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+engine/out/local/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+keys/

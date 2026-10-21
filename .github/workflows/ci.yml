@@ -1,0 +1,29 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: foundry-rs/foundry-toolchain@v1
+      - run: forge test -vv
+        working-directory: contracts
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+        working-directory: engine
+      - run: python -m pytest -q tests
+        working-directory: engine
+      # The contract tests read a fixture made by the engine; it must still match.
+      - run: python make_fixture.py /tmp/batch.json && diff /tmp/batch.json ../contracts/test/fixtures/batch.json
+        working-directory: engine

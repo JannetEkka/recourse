@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recourse</title>
+<meta name="description" content="Receipts for welfare algorithms: every automated eligibility decision sealed on-chain under rules published beforehand, with the records that decided it and an appeal the agency can't lose.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='3' width='22' height='26' rx='3' fill='%230e6b5c'/%3E%3Cpath d='M10 10h12M10 15h12M10 20h7' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.4/ethers.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="brand" aria-label="Recourse home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="3" width="22" height="26" rx="3" fill="currentColor" style="color:var(--accent)"/><path d="M10 10h12M10 15h12M10 20h7" stroke="var(--paper)" stroke-width="2.4" stroke-linecap="round"/></svg>
+    Recourse
+  </a>
+  <nav>
+    <a href="#/receipts" data-nav="receipts">Receipts</a>
+    <a href="#/record" data-nav="record">Public record</a>
+    <a href="#/check" data-nav="check">Check a receipt</a>
+    <a href="#/how" data-nav="how">How it works</a>
+  </nav>
+</header>
+<main id="app"><p class="loading">Loading…</p></main>
+<footer>
+  Recourse is a demo built for <a href="https://dorahacks.io/hackathon/web3-social-good-2026/detail">Web3 for Social Good 2026</a>. The agency, the households and the registries are synthetic; the contract, the seals and the appeals are real transactions on Monad testnet.
+  <span id="foot-links"></span>
+</footer>
+<div class="tip" id="tip" role="tooltip"></div>
+<script src="app.js"></script>
+</body>
+</html>
