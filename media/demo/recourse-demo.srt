@@ -1,0 +1,200 @@
+1
+00:00:00,100 --> 00:00:05,125
+In Telangana, an algorithm
+decides who gets subsidised food.
+
+2
+00:00:05,175 --> 00:00:10,667
+It matches people across government
+databases, and when it finds a match,
+
+3
+00:00:10,717 --> 00:00:12,337
+the family is cut off.
+
+4
+00:00:12,388 --> 00:00:18,307
+In 2024, Al Jazeera reported that it
+tagged Bismillah Bee's late husband,
+
+5
+00:00:18,357 --> 00:00:21,088
+a rickshaw puller, as a car owner.
+
+6
+00:00:21,138 --> 00:00:26,712
+Her family lost its rations, and nobody
+could tell her which record did it.
+
+7
+00:00:26,762 --> 00:00:30,362
+Recourse gives every family a receipt.
+
+8
+00:00:30,412 --> 00:00:33,000
+This is Amina's receipt.
+
+9
+00:00:33,050 --> 00:00:36,900
+Amina is invented, and modelled on that case.
+
+10
+00:00:36,950 --> 00:00:40,532
+It says she was refused under
+version two of the rules,
+
+11
+00:00:40,582 --> 00:00:44,018
+and that version one would
+have found her eligible.
+
+12
+00:00:44,068 --> 00:00:46,606
+One record decided it.
+
+13
+00:00:46,656 --> 00:00:51,991
+A Toyota Innova, registered
+in 2022 in Banjara Hills,
+
+14
+00:00:52,041 --> 00:00:53,718
+to Syed Ali Khan.
+
+15
+00:00:53,768 --> 00:01:01,006
+Amina's husband, Syed Ali, died in
+2019, and the family lives in Falaknuma.
+
+16
+00:01:01,056 --> 00:01:05,793
+The match scored eight thousand,
+exactly at the threshold.
+
+17
+00:01:05,843 --> 00:01:10,806
+The receipt lists a record only if
+removing it changes the outcome.
+
+18
+00:01:10,856 --> 00:01:15,050
+So if this car isn't theirs, she is eligible.
+
+19
+00:01:15,100 --> 00:01:20,012
+Gemini explains the receipt
+in Telugu, Hindi or English.
+
+20
+00:01:20,062 --> 00:01:25,419
+A guard checks every number and record
+ID in the text against the receipt,
+
+21
+00:01:25,469 --> 00:01:28,586
+and throws out any draft that invents one.
+
+22
+00:01:28,636 --> 00:01:30,686
+Is the receipt real?
+
+23
+00:01:30,736 --> 00:01:36,607
+The browser hashes it, folds its Merkle
+proof into the batch root sealed on Monad
+
+24
+00:01:36,657 --> 00:01:38,874
+testnet, and asks the contract.
+
+25
+00:01:38,924 --> 00:01:43,937
+It also checks that the rules file
+matches the hash the agency published,
+
+26
+00:01:43,987 --> 00:01:46,058
+before this batch was sealed.
+
+27
+00:01:46,108 --> 00:01:51,108
+Change one fact, say the
+outcome, and every check fails.
+
+28
+00:01:51,158 --> 00:01:55,634
+The agency can't rewrite a
+decision afterwards either.
+
+29
+00:01:55,684 --> 00:01:59,040
+A legal-aid worker filed
+Amina's appeal on chain,
+
+30
+00:01:59,090 --> 00:02:04,134
+with a letter Gemini drafted from the
+receipt and from what she told them.
+
+31
+00:02:04,184 --> 00:02:07,459
+The agency's answer is sealed too.
+
+32
+00:02:07,509 --> 00:02:09,674
+Decision reversed.
+
+33
+00:02:09,724 --> 00:02:14,611
+Anyone can open the public record,
+read live from the contract.
+
+34
+00:02:14,662 --> 00:02:20,390
+When the agency switched to version two,
+refusals went from seven and a half percent
+
+35
+00:02:20,440 --> 00:02:24,724
+to almost twenty one, and most
+appealed refusals were reversed.
+
+36
+00:02:24,774 --> 00:02:30,111
+Because this data is synthetic, we know
+version two wrongly cut off a hundred and
+
+37
+00:02:30,161 --> 00:02:31,574
+twenty seven families.
+
+38
+00:02:31,624 --> 00:02:36,218
+A real auditor sees the same
+story in the appeal numbers.
+
+39
+00:02:36,268 --> 00:02:38,768
+Two appeals are still open.
+
+40
+00:02:38,818 --> 00:02:42,386
+The agency committed to
+answer within thirty days,
+
+41
+00:02:42,436 --> 00:02:45,280
+and if it doesn't, they show as overdue.
+
+42
+00:02:45,330 --> 00:02:51,470
+The rules are public before they're used,
+and every family can see what decided its
+
+43
+00:02:51,520 --> 00:02:51,843
+case.
+
+44
+00:02:51,893 --> 00:02:53,758
+That's Recourse.
