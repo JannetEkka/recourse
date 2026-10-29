@@ -8,3 +8,4 @@ __pycache__/
 .env
 keys/
 media/demo/node_modules
+media/presentation/node_modules

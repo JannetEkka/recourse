@@ -2,7 +2,7 @@
 
     python narrate.py script.txt out_dir [voice]
 
-Scenes are separated by blank lines. Caption timings come from the voice's own sentence
+Scenes are separated by blank lines. NARRATE_RATE (e.g. "+6%") speeds the voice up. Caption timings come from the voice's own sentence
 boundaries, so they line up with the speech. Prints each scene's length.
 """
 
@@ -65,7 +65,8 @@ def wrap(line: str) -> str:
 
 async def scene(text: str, voice: str, path: Path) -> list[tuple[float, float, str]]:
     sentences = []
-    c = communicate.Communicate(text, voice, boundary="SentenceBoundary", proxy=os.environ.get("HTTPS_PROXY"))
+    c = communicate.Communicate(text, voice, rate=os.environ.get("NARRATE_RATE", "+0%"), boundary="SentenceBoundary",
+                                proxy=os.environ.get("HTTPS_PROXY"))
     with open(path, "wb") as f:
         async for chunk in c.stream():
             if chunk["type"] == "audio":

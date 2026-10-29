@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Recourse slides</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f7f5f0; --paper: #fffefb; --ink: #1c1b19; --ink2: #4f4d48; --ink3: #7a776f; --line: #e2ddd2;
+          --accent: #0e6b5c; --soft: #e2f0ec; --bad: #b42318; --badsoft: #fdecea; --good: #1a7f37; --warn: #8a5a00; --warnsoft: #fdf3dc; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
+  body { width: 1280px; height: 720px; overflow: hidden; font-family: Inter, system-ui, sans-serif; color: var(--ink); }
+  section { display: none; width: 1280px; height: 720px; padding: 64px 84px; position: relative; }
+  section.on { display: flex; flex-direction: column; justify-content: center; }
+  .kicker { color: var(--accent); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 15px; margin-bottom: 14px; }
+  h1 { font-size: 54px; line-height: 1.1; margin: 0 0 18px; letter-spacing: -0.02em; }
+  h2 { font-size: 40px; line-height: 1.15; margin: 0 0 26px; letter-spacing: -0.015em; }
+  p { font-size: 22px; line-height: 1.5; margin: 0 0 16px; color: var(--ink2); max-width: 1000px; }
+  .foot { position: absolute; left: 84px; right: 84px; bottom: 34px; display: flex; justify-content: space-between; color: var(--ink3); font-size: 14px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); }
+  .grid { display: grid; gap: 20px; }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g2 { grid-template-columns: repeat(2, 1fr); }
+  .card { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 24px 26px; }
+  .card h3 { margin: 0 0 10px; font-size: 22px; }
+  .card p { font-size: 18px; margin: 0; }
+  .num { font-size: 56px; font-weight: 700; color: var(--bad); line-height: 1; }
+  .quote { border-left: 4px solid var(--accent); padding: 4px 0 4px 22px; }
+  .src { font-size: 15px; color: var(--ink3); }
+  ol.big { margin: 0; padding: 0; list-style: none; counter-reset: k; }
+  ol.big li { counter-increment: k; position: relative; padding: 0 0 18px 64px; font-size: 22px; line-height: 1.45; color: var(--ink2); }
+  ol.big li b { color: var(--ink); }
+  ol.big li::before { content: counter(k); position: absolute; left: 0; top: -4px; width: 42px; height: 42px; border-radius: 50%; background: var(--soft); color: var(--accent); font-weight: 700; display: grid; place-items: center; font-size: 20px; }
+  .tag { display: inline-block; font-size: 15px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: var(--soft); color: var(--accent); }
+  svg text { font-family: Inter, system-ui, sans-serif; }
+  .mono { font-family: "JetBrains Mono", monospace; }
+</style>
+</head>
+<body>
+
+<!-- 1. title -->
+<section data-n="1">
+  <svg width="96" height="96" viewBox="0 0 512 512" aria-hidden="true">
+    <rect width="512" height="512" rx="112" fill="#0e6b5c"/>
+    <path d="M152 92h208a20 20 0 0 1 20 20v300l-38-24-38 24-38-24-38 24-38-24-38 24V112a20 20 0 0 1 20-20z" fill="#fffefb"/>
+    <path d="M184 168h144M184 220h144M184 272h88" stroke="#0e6b5c" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="322" cy="322" r="40" fill="#1a7f37"/>
+    <path d="M303 323l14 14 25-28" stroke="#fffefb" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <h1 style="font-size:76px;margin-top:28px">Recourse</h1>
+  <p style="font-size:30px;color:var(--ink)">Receipts for welfare algorithms</p>
+  <p>The rules are public before they're used, every family sees what decided its case, and appeals are on the record.</p>
+  <div class="foot"><span>Web3 for Social Good 2026 · Tech Track</span><span>Jannet Akanksha Ekka</span></div>
+</section>
+
+<!-- 2. problem -->
+<section data-n="2">
+  <div class="kicker">The problem</div>
+  <h2>An algorithm decides who keeps subsidised food</h2>
+  <div class="grid g2" style="grid-template-columns: 1.35fr 1fr; align-items:start">
+    <div>
+      <div class="quote"><p style="color:var(--ink)">Telangana's system matches people across government databases. A “match” removes the family from the scheme. It tagged Bismillah Bee's late husband, a rickshaw puller, as a car owner, and her family lost its rations.</p>
+      <p class="src">Al Jazeera with The Reporters' Collective, January 2024</p></div>
+      <p style="margin-top:26px">The family can't see which record did it. Nobody outside the department can check which rules ran, or whether they changed. The department keeps the only log, and it is the party being checked.</p>
+    </div>
+    <div class="card">
+      <div class="num">20 lakh</div>
+      <p style="margin-top:10px;font-size:20px">ration cards deleted in Telangana from 2016 on</p>
+      <p class="src" style="margin-top:12px">The South First</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. users + solution -->
+<section data-n="3">
+  <div class="kicker">Who it's for, and what it does</div>
+  <div class="grid g3" style="margin-bottom:30px">
+    <div class="card"><h3>The family</h3><p>needs to know what decided its case, in its own language.</p></div>
+    <div class="card"><h3>The legal-aid worker</h3><p>files the appeal and needs to know exactly which record to dispute.</p></div>
+    <div class="card"><h3>The auditor or journalist</h3><p>needs to see how often each version of the rules is wrong.</p></div>
+  </div>
+  <ol class="big">
+    <li><b>Rules are published on-chain before they're used.</b> The contract refuses decisions made under rules that weren't public first.</li>
+    <li><b>Every decision gets a receipt</b> listing only the records that decided it.</li>
+    <li><b>Gemini explains the receipt</b> in Telugu, Hindi or English, checked by a guard.</li>
+    <li><b>Appeals and the agency's answers go on the record</b>, with a deadline anyone can see.</li>
+  </ol>
+</section>
+
+<!-- 4. architecture -->
+<section data-n="4" style="padding-top:30px;padding-bottom:30px">
+  <div class="kicker">Technical architecture</div>
+  <h2 style="margin-bottom:10px">Decisions stay in the agency's system. Only hashes cross to the chain.</h2>
+  <figure style="margin:0">
+    <svg viewBox="0 0 1112 470" width="1112" height="470" role="img" aria-label="Decisions are made off-chain; rule hashes, one Merkle root per batch and appeal hashes go to the Recourse contract on Monad testnet; the family's browser checks a receipt against it.">
+      <defs>
+        <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4f4d48"/></marker>
+        <marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e6b5c"/></marker>
+      </defs>
+      <!-- zones -->
+      <rect x="0" y="22" width="340" height="440" rx="16" fill="#fffefb" stroke="#e2ddd2"/>
+      <text x="20" y="48" font-size="13" font-weight="700" fill="#7a776f" letter-spacing="1">OFF-CHAIN · THE AGENCY'S SYSTEM</text>
+      <rect x="440" y="22" width="276" height="440" rx="16" fill="#e2f0ec" stroke="#0e6b5c"/>
+      <text x="460" y="48" font-size="13" font-weight="700" fill="#0e6b5c" letter-spacing="1">ON-CHAIN · MONAD TESTNET</text>
+      <rect x="764" y="22" width="348" height="440" rx="16" fill="#fffefb" stroke="#e2ddd2"/>
+      <text x="784" y="48" font-size="13" font-weight="700" fill="#7a776f" letter-spacing="1">PEOPLE</text>
+
+      <!-- off-chain boxes -->
+      <g font-size="15" fill="#1c1b19">
+        <rect x="20" y="66" width="140" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="90" y="92" text-anchor="middle" font-weight="600">Registries</text>
+        <text x="90" y="112" text-anchor="middle" font-size="12" fill="#4f4d48">vehicles · tax · payroll</text>
+        <rect x="180" y="66" width="140" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="250" y="92" text-anchor="middle" font-weight="600">Rules file vN</text>
+        <text x="250" y="112" text-anchor="middle" font-size="12" fill="#4f4d48">weights · threshold</text>
+
+        <rect x="20" y="170" width="300" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="170" y="196" text-anchor="middle" font-weight="600">Engine: match every household</text>
+        <text x="170" y="216" text-anchor="middle" font-size="12" fill="#4f4d48">keeps records whose removal flips the outcome</text>
+
+        <rect x="20" y="274" width="300" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="170" y="300" text-anchor="middle" font-weight="600">Salted receipt per decision</text>
+        <text x="170" y="320" text-anchor="middle" font-size="12" fill="#4f4d48">leaf = hash(outcome, receipt)</text>
+
+        <rect x="20" y="378" width="300" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="170" y="404" text-anchor="middle" font-weight="600">Merkle tree</text>
+        <text x="170" y="424" text-anchor="middle" font-size="12" fill="#4f4d48">one root for the whole batch</text>
+      </g>
+      <g stroke="#4f4d48" stroke-width="2" fill="none">
+        <line x1="90" y1="128" x2="90" y2="168" marker-end="url(#a)"/>
+        <line x1="250" y1="128" x2="250" y2="168" marker-end="url(#a)"/>
+        <line x1="170" y1="232" x2="170" y2="272" marker-end="url(#a)"/>
+        <line x1="170" y1="336" x2="170" y2="376" marker-end="url(#a)"/>
+      </g>
+
+      <!-- contract -->
+      <g font-size="14" fill="#1c1b19">
+        <rect x="456" y="66" width="244" height="374" rx="12" fill="#fffefb" stroke="#0e6b5c" stroke-width="2"/>
+        <text x="578" y="94" text-anchor="middle" font-weight="700" font-size="16">Recourse.sol</text>
+        <text x="578" y="114" text-anchor="middle" font-size="12" fill="#4f4d48">no owner · no admin key</text>
+        <rect x="470" y="130" width="216" height="58" rx="8" fill="#e2f0ec"/>
+        <text x="482" y="154" font-weight="600">Rule versions</text>
+        <text x="482" y="174" font-size="12" fill="#4f4d48">hash · file link · reply days</text>
+        <rect x="470" y="200" width="216" height="58" rx="8" fill="#e2f0ec"/>
+        <text x="482" y="224" font-weight="600">Batch roots</text>
+        <text x="482" y="244" font-size="12" fill="#4f4d48">root · decisions · refused</text>
+        <rect x="470" y="270" width="216" height="58" rx="8" fill="#e2f0ec"/>
+        <text x="482" y="294" font-weight="600">Appeals</text>
+        <text x="482" y="314" font-size="12" fill="#4f4d48">proof checked · letter hash</text>
+        <rect x="470" y="340" width="216" height="58" rx="8" fill="#e2f0ec"/>
+        <text x="482" y="364" font-weight="600">Answers</text>
+        <text x="482" y="384" font-size="12" fill="#4f4d48">reversed or upheld · overdue</text>
+        <text x="578" y="424" text-anchor="middle" font-size="12" fill="#0e6b5c" font-weight="600">counts per rule version on-chain</text>
+      </g>
+
+      <!-- off-chain to chain: only hashes cross -->
+      <g stroke="#0e6b5c" stroke-width="2.5" fill="none">
+        <path d="M320 97 H392 V159 H468" marker-end="url(#t)"/>
+        <path d="M320 409 H392 V229 H468" marker-end="url(#t)"/>
+      </g>
+      <g font-size="12" font-weight="600" fill="#0e6b5c">
+        <text x="346" y="88">publishRuleset</text>
+        <text x="346" y="428">sealBatch</text>
+      </g>
+
+      <!-- the receipt goes to the family, not the chain -->
+      <path d="M320 305 H362 V10 H938 V64" stroke="#4f4d48" stroke-width="2" fill="none" marker-end="url(#a)" stroke-dasharray="6 5"/>
+      <rect x="610" y="2" width="140" height="16" fill="#f7f5f0"/>
+      <text x="680" y="14" font-size="12" font-weight="600" fill="#4f4d48" text-anchor="middle">receipt + proof</text>
+
+      <!-- people -->
+      <g font-size="15" fill="#1c1b19">
+        <rect x="784" y="66" width="308" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="800" y="92" font-weight="600">Family</text>
+        <text x="800" y="112" font-size="12" fill="#4f4d48">holds the receipt (paper + QR)</text>
+        <rect x="784" y="150" width="308" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="800" y="176" font-weight="600">Web page, in their browser</text>
+        <text x="800" y="196" font-size="12" fill="#4f4d48">re-hashes · folds the proof · calls verify()</text>
+        <rect x="784" y="234" width="308" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="800" y="260" font-weight="600">Gemini + guard</text>
+        <text x="800" y="280" font-size="12" fill="#4f4d48">Telugu · Hindi · English, facts checked</text>
+        <rect x="784" y="318" width="148" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="800" y="344" font-weight="600">Legal aid</text>
+        <text x="800" y="364" font-size="12" fill="#4f4d48">files appeals</text>
+        <rect x="944" y="318" width="148" height="62" rx="10" fill="#f7f5f0" stroke="#c9c2b3"/>
+        <text x="960" y="344" font-weight="600">Auditor</text>
+        <text x="960" y="364" font-size="12" fill="#4f4d48">public record</text>
+      </g>
+      <g stroke="#4f4d48" stroke-width="2" fill="none">
+        <line x1="938" y1="128" x2="938" y2="148" marker-end="url(#a)"/>
+        <line x1="938" y1="212" x2="938" y2="232" marker-end="url(#a)"/>
+      </g>
+
+      <!-- people to chain -->
+      <g stroke="#0e6b5c" stroke-width="2.5" fill="none">
+        <path d="M782 181 H704" marker-end="url(#t)"/>
+        <path d="M858 380 V412 H740 V299 H704" marker-end="url(#t)"/>
+        <path d="M1018 380 V440 H704" marker-end="url(#t)"/>
+      </g>
+      <g font-size="12" font-weight="600" fill="#0e6b5c">
+        <text x="722" y="174">verify()</text>
+        <text x="760" y="428">fileAppeal</text>
+        <text x="880" y="434">reads</text>
+      </g>
+    </svg>
+  </figure>
+</section>
+
+<!-- 5. design choices -->
+<section data-n="5">
+  <div class="kicker">Three design choices</div>
+  <h2>What keeps it honest</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">Privacy</span><h3 style="margin-top:14px">No personal data on-chain</h3><p>Only hashes of salted receipts, one Merkle root per batch. The receipt is the family's own.</p></div>
+    <div class="card"><span class="tag">Reasons</span><h3 style="margin-top:14px">Only records that decided it</h3><p>A record is a reason only if removing it changes the outcome, so a refusal can't be padded with records that didn't matter.</p></div>
+    <div class="card"><span class="tag">AI</span><h3 style="margin-top:14px">Gemini rewords, it can't add</h3><p>A guard checks every number and record ID against the receipt and rejects any draft that invents one or leaves out a decisive record.</p></div>
+  </div>
+  <p style="margin-top:30px">Python, Solidity and the browser compute the same hashes byte for byte. 21 contract tests and 21 engine tests run on every pull request.</p>
+</section>
+
+<!-- 6. innovation -->
+<section data-n="6">
+  <div class="kicker">What's new</div>
+  <h2>Accountability the agency can't edit</h2>
+  <ol class="big" style="margin-top:20px">
+    <li><b>A quiet rule change becomes a public, dated event.</b> Rules are committed before use, and each receipt says whether the earlier rules would have decided differently.</li>
+    <li><b>Reasons are tested, not listed.</b> The flip test comes from my trading agent SMT, where an advisor's reason is shown only if flipping its input changes the decision.</li>
+    <li><b>The AI explains but can't add facts.</b></li>
+    <li><b>A missing answer is visible</b> to everyone, with a date.</li>
+  </ol>
+</section>
+
+<!-- 7. impact + feasibility -->
+<section data-n="7">
+  <div class="kicker">Social impact and feasibility</div>
+  <div class="grid g2" style="gap:28px">
+    <div>
+      <h2 style="font-size:32px">Impact</h2>
+      <p>For families who lose food through a database match they can't see, and for the legal-aid groups who help them appeal.</p>
+      <p>In the demo, the change to v2 caught 17 more real cases and wrongly cut off 117 more families. The public record shows it through appeal outcomes alone.</p>
+    </div>
+    <div>
+      <h2 style="font-size:32px">Feasibility</h2>
+      <p>The agency changes one step: it seals each batch and publishes each rule version. About 160,000 gas per batch of 1,005 decisions.</p>
+      <p>Decisions stay in the system it already runs. A pilot starts with a legal-aid group that already files ration-card appeals.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:20px"><h3>Next</h3><p>Load a real state's published eligibility criteria · spoken explanations for families who can't read · a tool for auditors to re-run the rules on any receipt.</p></div>
+</section>
+
+<!-- 8. close -->
+<section data-n="8">
+  <h1>Recourse</h1>
+  <p style="font-size:28px;color:var(--ink)">The rules are public before they're used,<br>and every family can see what decided its case.</p>
+  <div style="margin-top:44px;font-size:22px;line-height:1.9" class="mono">
+    jannetekka.github.io/recourse<br>
+    github.com/JannetEkka/recourse<br>
+    <span style="font-size:17px;color:var(--ink3)">contract 0x0113802632a88f7f5ebd7603a8eea5f31e5c30ce · Monad testnet</span>
+  </div>
+  <div class="foot"><span>Web3 for Social Good 2026 · Tech Track</span><span>Jannet Akanksha Ekka</span></div>
+</section>
+
+<script>
+  const show = () => {
+    const n = (location.hash.replace("#", "") || "1");
+    document.querySelectorAll("section").forEach((s) => s.classList.toggle("on", s.dataset.n === n));
+  };
+  window.addEventListener("hashchange", show);
+  show();
+</script>
+</body>
+</html>
