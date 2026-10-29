@@ -1,0 +1,25 @@
+Recourse: receipts for welfare algorithms. I'm Jannet Akanksha Ekka, and this is my Tech Track entry for Web3 for Social Good.
+
+In Telangana, an automated system decides who keeps subsidised food. A match across government databases removes the family from the scheme. In 2024, Al Jazeera reported that it tagged Bismillah Bee's late husband, a rickshaw puller, as a car owner, and her family lost its rations. About twenty lakh ration cards were deleted from 2016 on. The family can't see which record did it. Nobody outside the department can check which rules ran, or whether they changed. The department keeps the only log, and it is the party being checked.
+
+Recourse is built for three people. The family, who needs to know what decided their case. The legal-aid worker, who files the appeal. And the auditor or journalist, who needs to see how often the system gets it wrong. It does four things: rules on chain before they're used, a receipt with only the records that decided it, an explanation in the family's own language, and appeals on the record.
+
+Here is the architecture. Decisions stay in the agency's own system. The engine matches every household against the vehicle, income tax and payroll registries, under a published rules file. Each decision becomes a salted receipt, and its hash, joined with the outcome, is a leaf in a Merkle tree. From the agency's system, only two things go on chain: the hash of each rules file, and one root per batch. The Recourse contract on Monad testnet has no owner. It holds the rule versions, the batch roots, the appeals and the answers. The family keeps the receipt, and their browser checks it against the contract directly.
+
+Three design choices keep it honest. No personal data goes on chain, only hashes. A record counts as a reason only if removing it changes the outcome, so a refusal can't be padded with records that didn't matter. And Gemini only rewords the receipt. A guard checks every number and record ID it writes, and throws out any draft that invents one or leaves out a decisive record.
+
+Here is the working prototype, live on Monad testnet. Amina is invented, and modelled on Bismillah Bee. Her family was refused under version two of the rules, and version one would have found them eligible. One record decided it: a Toyota Innova, registered in 2022 in Banjara Hills. Her husband died in 2019, and the family lives in Falaknuma. The match sat exactly at the threshold.
+
+She can read the same receipt in Telugu, or in Hindi.
+
+Her browser checks the receipt against the chain: its hash, its Merkle proof, the published rules file, and that the rules came before the batch. Change one fact, and every check fails.
+
+A legal-aid worker filed her appeal on chain, with a letter Gemini drafted. The agency's answer is sealed too. Decision reversed.
+
+Anyone can open the public record, read live from the contract. When the agency switched to version two, refusals went from seventy five households to two hundred and nine. Under version two, ten of the twelve appeals the agency answered were reversed. Two are still waiting, and they go overdue on the twentieth of November.
+
+What's new? A quiet rule change becomes a public, dated event, and each receipt says whether the earlier rules would have decided differently. Reasons are tested, not listed. That flip test comes from my trading agent, SMT. The AI explains, but it can't add facts. And a missing answer is visible to everyone, with a date.
+
+The impact is for families who lose food through a database match they can't see. In the demo, version two caught seventeen more real cases, and wrongly cut off a hundred and seventeen more families, and the appeal outcomes show it. It's cheap to adopt. The agency seals each batch, about a hundred and sixty thousand gas for a thousand decisions, and publishes each rule version. A pilot can start with a legal-aid group that already files ration card appeals. Next, I'd load a real state's published criteria, add spoken explanations, and give auditors a tool to re-run the rules on any receipt.
+
+Recourse. The rules are public before they're used, and every family can see what decided its case. Thank you.

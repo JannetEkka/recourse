@@ -1,0 +1,366 @@
+1
+00:00:00,100 --> 00:00:03,833
+Recourse: receipts for welfare algorithms.
+
+2
+00:00:03,883 --> 00:00:10,226
+I'm Jannet Akanksha Ekka, and this is my
+Tech Track entry for Web3 for Social Good.
+
+3
+00:00:10,276 --> 00:00:15,589
+In Telangana, an automated system
+decides who keeps subsidised food.
+
+4
+00:00:15,639 --> 00:00:20,542
+A match across government databases
+removes the family from the scheme.
+
+5
+00:00:20,592 --> 00:00:25,922
+In 2024, Al Jazeera reported that it
+tagged Bismillah Bee's late husband,
+
+6
+00:00:25,972 --> 00:00:30,860
+a rickshaw puller, as a car owner,
+and her family lost its rations.
+
+7
+00:00:30,910 --> 00:00:35,954
+About twenty lakh ration cards
+were deleted from 2016 on.
+
+8
+00:00:36,004 --> 00:00:39,209
+The family can't see which record did it.
+
+9
+00:00:39,259 --> 00:00:43,089
+Nobody outside the department
+can check which rules ran,
+
+10
+00:00:43,139 --> 00:00:44,751
+or whether they changed.
+
+11
+00:00:44,801 --> 00:00:49,466
+The department keeps the only log,
+and it is the party being checked.
+
+12
+00:00:49,516 --> 00:00:52,282
+Recourse is built for three people.
+
+13
+00:00:52,332 --> 00:00:56,326
+The family, who needs to
+know what decided their case.
+
+14
+00:00:56,376 --> 00:00:59,723
+The legal-aid worker, who files the appeal.
+
+15
+00:00:59,773 --> 00:01:05,124
+And the auditor or journalist, who needs
+to see how often the system gets it wrong.
+
+16
+00:01:05,174 --> 00:01:08,863
+It does four things: rules
+on chain before they're used,
+
+17
+00:01:08,913 --> 00:01:12,069
+a receipt with only the
+records that decided it,
+
+18
+00:01:12,119 --> 00:01:16,922
+an explanation in the family's own
+language, and appeals on the record.
+
+19
+00:01:16,972 --> 00:01:19,301
+Here is the architecture.
+
+20
+00:01:19,351 --> 00:01:22,874
+Decisions stay in the agency's own system.
+
+21
+00:01:22,924 --> 00:01:26,755
+The engine matches every
+household against the vehicle,
+
+22
+00:01:26,805 --> 00:01:31,271
+income tax and payroll registries,
+under a published rules file.
+
+23
+00:01:31,321 --> 00:01:35,074
+Each decision becomes a
+salted receipt, and its hash,
+
+24
+00:01:35,124 --> 00:01:38,806
+joined with the outcome,
+is a leaf in a Merkle tree.
+
+25
+00:01:38,856 --> 00:01:44,909
+From the agency's system, only two things
+go on chain: the hash of each rules file,
+
+26
+00:01:44,959 --> 00:01:46,601
+and one root per batch.
+
+27
+00:01:46,651 --> 00:01:50,646
+The Recourse contract on
+Monad testnet has no owner.
+
+28
+00:01:50,696 --> 00:01:55,976
+It holds the rule versions, the batch
+roots, the appeals and the answers.
+
+29
+00:01:56,026 --> 00:02:01,336
+The family keeps the receipt, and their
+browser checks it against the contract
+
+30
+00:02:01,386 --> 00:02:02,066
+directly.
+
+31
+00:02:02,116 --> 00:02:05,117
+Three design choices keep it honest.
+
+32
+00:02:05,167 --> 00:02:09,033
+No personal data goes on chain, only hashes.
+
+33
+00:02:09,083 --> 00:02:13,558
+A record counts as a reason only
+if removing it changes the outcome,
+
+34
+00:02:13,608 --> 00:02:17,617
+so a refusal can't be padded
+with records that didn't matter.
+
+35
+00:02:17,667 --> 00:02:20,683
+And Gemini only rewords the receipt.
+
+36
+00:02:20,733 --> 00:02:24,333
+A guard checks every number
+and record ID it writes,
+
+37
+00:02:24,383 --> 00:02:29,642
+and throws out any draft that invents
+one or leaves out a decisive record.
+
+38
+00:02:29,692 --> 00:02:33,849
+Here is the working prototype,
+live on Monad testnet.
+
+39
+00:02:33,899 --> 00:02:37,835
+Amina is invented, and
+modelled on Bismillah Bee.
+
+40
+00:02:37,885 --> 00:02:41,252
+Her family was refused under
+version two of the rules,
+
+41
+00:02:41,302 --> 00:02:44,226
+and version one would
+have found them eligible.
+
+42
+00:02:44,276 --> 00:02:51,243
+One record decided it: a Toyota Innova,
+registered in 2022 in Banjara Hills.
+
+43
+00:02:51,293 --> 00:02:56,632
+Her husband died in 2019, and
+the family lives in Falaknuma.
+
+44
+00:02:56,682 --> 00:03:00,026
+The match sat exactly at the threshold.
+
+45
+00:03:00,076 --> 00:03:04,418
+She can read the same receipt
+in Telugu, or in Hindi.
+
+46
+00:03:04,468 --> 00:03:08,427
+Her browser checks the receipt
+against the chain: its hash,
+
+47
+00:03:08,477 --> 00:03:13,727
+its Merkle proof, the published rules
+file, and that the rules came before the
+
+48
+00:03:13,777 --> 00:03:14,085
+batch.
+
+49
+00:03:14,135 --> 00:03:17,810
+Change one fact, and every check fails.
+
+50
+00:03:17,860 --> 00:03:23,255
+A legal-aid worker filed her appeal on
+chain, with a letter Gemini drafted.
+
+51
+00:03:23,305 --> 00:03:26,392
+The agency's answer is sealed too.
+
+52
+00:03:26,442 --> 00:03:28,490
+Decision reversed.
+
+53
+00:03:28,540 --> 00:03:33,145
+Anyone can open the public record,
+read live from the contract.
+
+54
+00:03:33,195 --> 00:03:38,469
+When the agency switched to version two,
+refusals went from seventy five households
+
+55
+00:03:38,519 --> 00:03:40,008
+to two hundred and nine.
+
+56
+00:03:40,058 --> 00:03:45,339
+Under version two, ten of the twelve
+appeals the agency answered were reversed.
+
+57
+00:03:45,389 --> 00:03:50,090
+Two are still waiting, and they go
+overdue on the twentieth of November.
+
+58
+00:03:50,140 --> 00:03:51,703
+What's new?
+
+59
+00:03:51,753 --> 00:03:54,939
+A quiet rule change becomes
+a public, dated event,
+
+60
+00:03:54,989 --> 00:04:00,052
+and each receipt says whether the earlier
+rules would have decided differently.
+
+61
+00:04:00,102 --> 00:04:03,071
+Reasons are tested, not listed.
+
+62
+00:04:03,121 --> 00:04:07,387
+That flip test comes from
+my trading agent, SMT.
+
+63
+00:04:07,437 --> 00:04:11,196
+The AI explains, but it can't add facts.
+
+64
+00:04:11,246 --> 00:04:15,506
+And a missing answer is visible
+to everyone, with a date.
+
+65
+00:04:15,556 --> 00:04:20,869
+The impact is for families who lose food
+through a database match they can't see.
+
+66
+00:04:20,919 --> 00:04:24,469
+In the demo, version two caught
+seventeen more real cases,
+
+67
+00:04:24,519 --> 00:04:28,069
+and wrongly cut off a hundred
+and seventeen more families,
+
+68
+00:04:28,119 --> 00:04:30,055
+and the appeal outcomes show it.
+
+69
+00:04:30,105 --> 00:04:32,131
+It's cheap to adopt.
+
+70
+00:04:32,181 --> 00:04:37,584
+The agency seals each batch, about a hundred
+and sixty thousand gas for a thousand
+
+71
+00:04:37,634 --> 00:04:40,444
+decisions, and publishes each rule version.
+
+72
+00:04:40,494 --> 00:04:46,069
+A pilot can start with a legal-aid group
+that already files ration card appeals.
+
+73
+00:04:46,119 --> 00:04:49,467
+Next, I'd load a real
+state's published criteria,
+
+74
+00:04:49,517 --> 00:04:54,736
+add spoken explanations, and give
+auditors a tool to re-run the rules on any
+
+75
+00:04:54,786 --> 00:04:55,394
+receipt.
+
+76
+00:04:55,444 --> 00:04:56,889
+Recourse.
+
+77
+00:04:56,939 --> 00:05:02,728
+The rules are public before they're used,
+and every family can see what decided its
+
+78
+00:05:02,778 --> 00:05:03,080
+case.
+
+79
+00:05:03,130 --> 00:05:04,582
+Thank you.
